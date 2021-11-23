@@ -1,0 +1,28 @@
+/*
+sub ul menu styles
+*/
+ul li ul.subMenu {
+	margin-left: 20px;
+}
+/*
+lists with image icons
+class=imagebullets
+*/
+ul.imagebullets {
+	margin-left: 0;
+}
+ul.imagebullets li {
+	list-style: none;
+}
+ul.imagebullets li img {
+	max-width: 45px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+ul.imagebullets ul.subMenu {
+	margin-left: 70px;
+	margin-top: -10px;
+}
+ul.imagebullets ul.subMenu li {
+	margin: 10px 0 10px 0;
+}
