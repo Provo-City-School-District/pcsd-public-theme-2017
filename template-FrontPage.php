@@ -84,7 +84,6 @@ Template Name: Front Page
 			   </ul>
 		   </section>
 		   <!-- I am Buttons Home Page End -->
-
 		   <section id="homeNews"> <!-- News Home Page Start -->
 				  <h1>District News & Events</h1>
 					  <p>The latest news from Provo City School District</p>
@@ -168,12 +167,12 @@ Template Name: Front Page
 
 						<ul class="sociallinks">
 							<li>
-								<a href="https://www.instagram.com/provocityschooldistrict/"><img src="https://globalassets.provo.edu/image/icons/archived/instagram-social-network-logo-of-photo-camera.svg" alt="Link to Instagram" /></span></a>
+								<a href="https://www.instagram.com/provocityschooldistrict/"><img src="https://globalassets.provo.edu/image/icons/instagram-social-network-logo-of-photo-camera.svg" alt="Link to Instagram" /></span></a>
 							</li>
-							<li><a href="https://twitter.com/ProvoSchoolDist"><img src="https://globalassets.provo.edu/image/icons/archived/twitter-logo-on-black-background.svg" alt="Link to Twitter" /></span>
+							<li><a href="https://twitter.com/ProvoSchoolDist"><img src="https://globalassets.provo.edu/image/icons/twitter-logo-on-black-background.svg" alt="Link to Twitter" /></span>
 								</a>
 							</li>
-							<li><a href="https://www.facebook.com/provoschooldistrict/"><img src="https://globalassets.provo.edu/image/icons/archived/facebook-app-logo.svg" alt="Link to Facebook" /></span>
+							<li><a href="https://www.facebook.com/provoschooldistrict/"><img src="https://globalassets.provo.edu/image/icons/facebook-app-logo.svg" alt="Link to Facebook" /></span>
 								</a>
 							</li>
 						</ul>
