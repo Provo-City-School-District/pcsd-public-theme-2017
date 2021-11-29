@@ -48,11 +48,11 @@
 		min-height: 400px;
 		}
 	}
-	/*
-	--------------------------------------------------------------------
-	I am buttons
-	--------------------------------------------------------------------
-	*/
+/*
+--------------------------------------------------------------------
+I am buttons
+--------------------------------------------------------------------
+*/
 #iAmMenu {
 	display: block;
 	position: relative;
@@ -108,26 +108,44 @@
 													*/
 #iAmMenu ul li .iamBox {
 	position: absolute;
-	display: none;
 	color: #02365b;
 	background-color: rgba(218, 225, 231, .9);
 	border-radius: 3px;
 	height: 350px;
 	overflow-y: scroll;
 	bottom: 163px;
-	margin-left: auto;
 	margin-right: auto;
 	left: 0;
 	right: 0;
 	width: 90%;
 	padding: 10px;
 	z-index: 1000;
+	margin-left: -9999px;
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 #iAmMenu ul li .iamBox a {
 	color: #02365b;
 }
+#iAmMenu div ul li {
+	margin: 10px 0 10px 0;
+}
+#iAmMenu div ul ul {
+	margin-top: -5px;
+	font-size:.8em;
+}
+#iAmMenu div ul ul li {
+	margin: 0 0 0 70px;
+}
+#iAmMenu ul li div ul li img {
+	width: 36px;
+	height: 36px;
+	background-color: #02365b;
+	padding: 2px;
+	border-radius: 3px;
+}
 #iAmMenu .on .iamBox {
-	display:block;
+	margin-left: auto;
 }
 	/*
 	#iAmMenu ul li div.iamBox .threeColumn {
@@ -148,14 +166,7 @@
 		width: 100%;
 		clear: both;
 	}
-	#iAmMenu ul li div ul li img {
-		width: 36px;
-		height: 36px;
-		background-color: #02365b;
-		padding: 2px;
-		border-radius: 3px;
-		position: absolute;
-	}
+
 	#iAmMenu ul li div.iamBox ul li a {
 		max-width: 100%;
 		font-size: 1em;
@@ -235,6 +246,13 @@ Responsive styles
 	#iAmMenu ul li span {
 		font-size: 1.25em;
 	}
+	#iAmMenu .on .iamBox {
+			display: block;
+			position: relative;
+			top: 0;
+			overflow: visible;
+			height: auto;
+		}
 												/*
 												#iAmMenu .on .iamBox {
 													display: block;
