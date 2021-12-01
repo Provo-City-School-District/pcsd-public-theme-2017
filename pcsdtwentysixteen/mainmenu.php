@@ -24,7 +24,6 @@
 				<li><img src="https://globalassets.provo.edu/image/icons/dark/privacy.svg" alt="" /><a href="https://provo.edu/our-district/student-data-privacy/">Student Data Privacy</a></li>
             </ul>
             <ul class="sub-nav-group">
-                <li><img src="https://globalassets.provo.edu/image/icons/dark/progress.svg" alt="" /><a class="pdf" href="https://provo.edu/wp-content/uploads/2017/07/07312017DistrictProgressReport.pdf">Progress Report</a></li>
                 <li><img src="https://globalassets.provo.edu/image/icons/dark/org.svg" alt="" /><a class="pdf" href="https://provo.edu/wp-content/uploads/2021/09/2021-OrgChart.pdf">Org Chart</a></li>
                 <li><img src="https://globalassets.provo.edu/image/icons/dark/foundation.svg" alt="" /><a href="https://provo.edu/student-services/foundation/">Provo Foundation</a></li>
                 <li><img src="https://globalassets.provo.edu/image/icons/dark/open-book.svg" alt="" /><a href="https://provo.edu/provoreads/">ProvoReads</a></li>
