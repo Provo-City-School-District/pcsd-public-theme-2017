@@ -62,18 +62,21 @@
 								'Please DO NOT respond to this email.  This account is for incoming messages only! You can contact the person who sent this message at: ' . $from;	
 						
 						//send mail
+							openlog("emailFormLog", LOG_PID | LOG_PERROR, LOG_LOCAL0);
+							$emaildate = date('d.m.Y h:i:s');
 							if(wp_mail( null, $subject, $emailedmessage, $headers)) {
 								echo('Your Message successfully sent!');
 								echo'<script>setTimeout(function(){window.location.href="https://provo.edu"},15000);</script>';
-								
+								syslog(LOG_WARNING, "Date: " . $emaildate . " Email Sent Successfully from " . $from . " to " . $to . " Email Subject: " . test_input($_POST['subject']) . " Email Content: " . $submitmessage);
 							} else {
 								?>
 								<p>Message delivery failed...Please Contact inform the web team via the <a href="https://provo.edu/website-feedback/">Website Feedback Form</a></p>
-								<p><a href="https://provo.edu/district-office-directory/email-form/?staff=<?php echo $_POST['staff_id'] . '&subject=' . $_POST['subject'] . '&from=' . $_POST['senderemail'] . '&carbon=' . $_POST['carbon'] . '&senderphone=' . $_POST['senderphone'] . '&message=' . $_POST['message']; ?>">Go back to the previous email form to try and send again</a></p>	
+								<p><a href="https://provo.edu/district-office-directory/email-form/?staff=<?php echo $_POST['staff_id'] . '&subject=' . $_POST['subject'] . '&from=' . $_POST['senderemail'] . '&carbon=' . $_POST['carbon'] . '&senderphone=' . $_POST['senderphone'] . '&message=' . $_POST['message']; ?>">Go back to the previous email form to try and send again</a></p>
 								<?php
-							   }
-							   	
-					   }   
+							    syslog(LOG_WARNING, "Date: " . $emaildate . " Email Error. Email Not Sent " . $from . " to " . $to . " Email Subject: " . test_input($_POST['subject']) . " Email Content: " . $submitmessage);
+							}
+							closelog();
+					   }
 				   }
 				?>
 				<script>
