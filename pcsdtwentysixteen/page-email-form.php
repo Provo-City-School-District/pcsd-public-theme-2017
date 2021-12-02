@@ -11,9 +11,9 @@
 
    		<section class="content page contact">
    		<?php custom_breadcrumbs(); ?>
-   			<article id="activePost" class="activePost">
+   			<article id="activePost" class="activePost emailForm">
    				<h2>Contact <?php echo get_the_title($staff_member); ?></h2>
-					<form action="https://provo.edu/email-sent/" method='post' id="emailForm">
+					<form action="https://provo.edu/email-sent/" method='post' id="emailForm" class="emailForm">
 						<label for="from">From: </label>
 						<input type="email" id="from" name="senderemail" placeholder="username@example.com" <?php if(!empty($prefillfrom)) { echo 'value="' . $prefillfrom . '"';} ?> required>
 						<label for="fromPhone">Phone: </label>

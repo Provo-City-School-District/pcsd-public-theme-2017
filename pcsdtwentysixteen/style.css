@@ -51,6 +51,9 @@ h1#siteTitle {position: absolute;margin-left: -9999px;}
 #appSurveySubmit {display: none;}
 .blue {color: blue;}
 
+form.emailForm p {
+	 display: inline;
+ }
 /*
 --------------------------------------------------------------------
 App Survey Styles
