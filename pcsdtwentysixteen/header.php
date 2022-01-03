@@ -46,6 +46,9 @@
 	<link href="https://customer.cludo.com/css/templates/v1.1/essentials/cludo-search.min.css" type="text/css" rel="stylesheet">
   </head>
   <body <?php body_class(); ?>>
+	  <a href="#mainContent" class="skip-nav-link">
+	  	skip navigation
+	  </a>
 	  <header id="mainHeader">
 		<section id="covidBranding">
 			<a href="https://provo.edu/covid-19-updates/covid-19-summary/">Provo City School District Covid-19 Updates</a>
