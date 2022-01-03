@@ -7,17 +7,20 @@ var iAmMenuTimeout = null;
 const mouseTrackEvent = document.getElementById('iAmMenu');
 jQuery(".iambutton").click( function() {
   // var e=window.event||e;
-  	jQuery('.on').not(this).removeClass('on');
-  	jQuery(this).toggleClass("on");
-	 
-	 //add removable with delay after hover leaves the iAM buttons
+	  if (jQuery(window).width() < 685) {
+			 e.preventDefault();
+	}
+	jQuery('.on').not(this).removeClass('on');
+	  jQuery(this).toggleClass("on");
+	//jQuery('html').animate({scrollTop: jQuery(this)},'fast');
+	//add removable with delay after hover leaves the iAM buttons
 	/*
 	 mouseTrackEvent.addEventListener('mouseleave', e =>
 	 {
 		  iAmMenuTimeout = setTimeout(function() {
-			jQuery(".iambutton").removeClass('on');	 
+			jQuery(".iambutton").removeClass('on');
 		 }, 1000);
-	 }); 
+	 });
 	 */
 });
 

@@ -65,23 +65,23 @@ Template Name: Front Page
 		<!-- I am Buttons Home Page Start -->
 		<section id="iAmMenu">
 			<h2>I Am Menu</h2>
-			   <ul>
-				  <li class="iambutton" id="iamparent">I am a<span>Parent</span>
-					  <div class="iamBox" id="parentbox">
-						 <?php get_template_part( 'template-parts/iam', 'parent'); ?>
-					  </div>
-				  </li>
-				  <li class="iambutton" id="iamstudent">I am a<span>Student</span>
-					  <div class="iamBox" id="studentbox">
-					  	<?php get_template_part( 'template-parts/iam', 'student'); ?>
-					  </div>
-				  </li>
-				  <li class="iambutton" id="iamemployee">I am an<span>Employee</span>
-					  <div class="iamBox" id="employeebox">
-					  	<?php get_template_part( 'template-parts/iam', 'employee'); ?>
-					  </div>
-				  </li>
-			   </ul>
+			  <ul>
+					<li class="iambutton" id="iamparent"><a href="https://provo.edu/i-am-a-parent/">I am a<span>Parent</span></a>
+						<div class="iamBox" id="parentbox">
+						   <?php get_template_part( 'template-parts/iam', 'parent'); ?>
+						</div>
+					</li>
+					<li class="iambutton" id="iamstudent"><a href="https://provo.edu/i-am-a-student/">I am a<span>Student</span></a>
+						<div class="iamBox" id="studentbox">
+							<?php get_template_part( 'template-parts/iam', 'student'); ?>
+						</div>
+					</li>
+					<li class="iambutton" id="iamemployee"><a href="https://provo.edu/i-am-a-employee/">I am an<span>Employee</span></a>
+						<div class="iamBox" id="employeebox">
+							<?php get_template_part( 'template-parts/iam', 'employee'); ?>
+						</div>
+					</li>
+				 </ul>
 		   </section>
 		   <!-- I am Buttons Home Page End -->
 		   <section id="homeNews"> <!-- News Home Page Start -->
