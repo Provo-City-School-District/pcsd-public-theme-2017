@@ -48,7 +48,20 @@ remove_action('wp_head', 'print_emoji_detection_script', 7);
 remove_action('wp_print_styles', 'print_emoji_styles');
 remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
 remove_action( 'admin_print_styles', 'print_emoji_styles' );
+/*==========================================================================================
+// Main Menu Template pulls
+============================================================================================*/
+//[ourdistrict]
+function ourdistrict_func() {
+	get_template_part( 'template-parts/mega-menu-dropdowns', 'ourDistrict');
+}
+add_shortcode( 'ourdistrict', 'ourdistrict_func' );
 
+//[departmentmenu]
+function departmentMenu_func() {
+	get_template_part( 'template-parts/mega-menu-dropdowns', 'departments');
+}
+add_shortcode( 'departmentmenu', 'departmentMenu_func' );
 /*==========================================================================================
 // custom Login Page
 ============================================================================================*/
