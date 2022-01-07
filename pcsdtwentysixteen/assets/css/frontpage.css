@@ -3,7 +3,7 @@
 		--main-ltblue-color: #dde0e7;
 	}
 	#mainContent {
-		margin-top: 79px;
+		margin-top: 88px;
 		width:100%;
 		background-color: #fff;
 	}
@@ -24,17 +24,18 @@
 	.alerts {
 		background-color: red;
 		color: #fff;
-		padding: 10px 20px 10px 20px;
-		position: relative;
+		padding: 25px 20px 5px 20px;
+
 	}
 	.alerts h1 a {color: #fff;}
 	.alerts h1 a:hover {color: #fc7e02;}
+	.alerts ul {margin-left:0;margin-bottom: -5px;margin-top:10px;}
 	.alerts .closeAlert {
 		background-color: transparent;
 		height: 25px;
 		width: 25px;
 		float: right;
-		margin-top: -50px;
+		margin-top: -80px;
 	}
 	/*
 	================================================================================================================

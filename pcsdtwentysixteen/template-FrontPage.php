@@ -9,25 +9,33 @@ Template Name: Front Page
 	//print_r($get_to_know_fields);
 ?>
 
+
 <main id="mainContent" class="homeMainContent">
-	<section class="alerts">
-		<?php
-			$my_query = new WP_Query( array('showposts' => $posts_to_show, 'category_name'  => 'alert'));
-					   while ( $my_query->have_posts() ) : $my_query->the_post(); ?>
-						   <article class="post">
-							   <header class="postmeta">
-								<ul>
-									<li><img src="//globalassets.provo.edu/image/icons/calendar-lt.svg" alt="" /><?php the_time(' F jS, Y') ?></li>
-								</ul>
-								<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-								<button class="closeAlert"><img src="https://globalassets.provo.edu/image/icons/round-delete-button-white.svg" alt="Close Alerts" /></button>
-							</header>
-							   <?php //echo the_content(); ?>
-						   </article>
-					<?php endwhile;
-			wp_reset_query();
+
+	<?php
+		$my_query = new WP_Query( array('showposts' => $posts_to_show, 'category_name'  => 'alert', 'post_status' => 'publish'));
 		?>
-	</section>
+
+		<section class="alerts <?php if($my_query->found_posts <= 0){echo 'hidden';} ?>">
+		<?php
+				   while ( $my_query->have_posts() ) : $my_query->the_post(); ?>
+					   <article class="post">
+						   <header class="postmeta">
+							<ul>
+								<li><img src="//globalassets.provo.edu/image/icons/calendar-lt.svg" alt="" /><?php the_time(' F jS, Y') ?></li>
+							</ul>
+							<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+
+						</header>
+						   <?php //echo the_content(); ?>
+					   </article>
+					   <button class="closeAlert"><img src="https://globalassets.provo.edu/image/icons/round-delete-button-white.svg" alt="Close Alerts" /></button>
+				<?php endwhile;
+		?>
+		</section>
+		<?php
+		wp_reset_query();
+	?>
 
 	<h1 class="visuallyhidden">Provo City School District</h1>
 	<section id="announcments">
