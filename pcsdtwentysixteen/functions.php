@@ -252,6 +252,46 @@ add_filter( 'posts_orderby', function( $orderby, \WP_Query $q )
 //manage_edit-post_sortable_columns -> manage_edit-{POST_TYPE}_sortable_columns
 
 //where POST_TYPE is the wanted post type.
+
+/*==========================================================================================
+add email column to Directory post type
+stack thread -> https://stackoverflow.com/questions/54581263/sortable-custom-column-using-acf-pro-select-field-in-wordpress-admin-for-post-li/70628121#70628121
+============================================================================================*/
+
+add_filter('manage_directory_posts_columns', 'filter_directory_custom_columns');
+
+function filter_directory_custom_columns($columns) {
+	$columns['email'] = 'Email';
+	return $columns;
+}
+
+add_action('manage_directory_posts_custom_column',  'action_directory_custom_columns');
+
+function action_directory_custom_columns($column) {
+	global $post;
+	if($column == 'email') {
+		$directoryfields = get_fields($post->ID);
+		echo $directoryfields['email'];
+	}
+}
+
+add_filter( 'manage_edit-directory_sortable_columns', 'sortable_directory_custom_columns' );
+
+function sortable_directory_custom_columns( $columns ) {
+	$columns['email'] = 'email';
+	return $columns;
+}
+add_action( 'pre_get_posts', 'directory_orderby' );
+function directory_orderby( $query ) {
+	if( ! is_admin() )
+		return;
+	$orderby = $query->get( 'orderby');
+	if( 'email' == $orderby ) {
+		$query->set('meta_key','email');
+		$query->set('orderby','meta_value');
+	}
+}
+
 /*==========================================================================================
 Custom Post Types
 ============================================================================================*/
