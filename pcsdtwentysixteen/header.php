@@ -23,13 +23,7 @@
 <!--end Fonts -->
 	<link rel="stylesheet" type="text/css" href="https://globalassets.provo.edu/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="https://globalassets.provo.edu/slick/slick-theme.css"/>
-<!-- Favicon Code -->
-	<link rel="apple-touch-icon" sizes="180x180" href="//globalassets.provo.edu/image/favicons/public/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="//globalassets.provo.edu/image/favicons/public/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="//globalassets.provo.edu/image/favicons/public/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="//globalassets.provo.edu/image/favicons/public/manifest.json">
-<!-- Favicon End -->
-	<link rel="mask-icon" href="//globalassets.provo.edu/image/favicons/public/safari-pinned-tab.svg">
+
 	<meta name="theme-color" content="#ffffff ">
 	<?php
 		if (has_post_thumbnail()) {
