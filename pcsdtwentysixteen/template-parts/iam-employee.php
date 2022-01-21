@@ -46,7 +46,7 @@
 					<li><a href="https://employee.provo.edu/technology/approved-applications/">Approved Apps</a></li>
 					<li><a href="https://www.employeenavigator.com/benefits/Account/Login">Benefits Enrollment Portal</a></li>
 					<li><a href="https://employee.provo.edu/teaching-learning/curriculum-notebooks/">Curriculum Notebooks</a></li>
-					<li><a href="http://mail.google.com/">Email Login</a></li>
+					<li><a href="https://mail.google.com/">Email Login</a></li>
 					<li><a href="https://employee.provo.edu/">Employee Website</a></li>
 					<li><a href="https://provo.emspaplus.com/Employee/Account/LogOn">ESP Evaluations</a></li>
 					<li><a href="https://internet.provo.edu">Filter Login</a></li>
