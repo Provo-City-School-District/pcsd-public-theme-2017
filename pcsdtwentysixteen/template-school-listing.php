@@ -35,8 +35,13 @@
 									while ($school_query->have_posts()) : $school_query->the_post();
 									?>										
 										<article class="demographics">
-											<a name="<?php the_title(); ?>"></a>
-												
+										<?php
+											$the_title = get_the_title();
+											$anchor = str_replace(" ","_",$the_title );
+
+										?>
+											<a name="<?php echo $anchor; ?>"></a>
+
 												<div class="schoolContact">
 													<h3><?php the_title(); ?></h3>	
 													<ul>
