@@ -31,7 +31,7 @@ ul.imagebullets ul.subMenu li {
 	margin: 10px 0 10px 0;
 }
 .novisibility {
-	visibility: 0;
+	visibility: hidden;
 }
 .skip-nav-link {
 	position: absolute;
