@@ -55,6 +55,11 @@
 										<?php
 										}
 								}
+								if(get_field('speaks_spanish')){
+									?>
+									<li class="speaksSpanish" lang="es"><em>Hablo Español</em></li>
+									<?php
+								}
 							?>
 							<li class="name"><strong><?php echo get_field( 'first_name' ) ?> <?php echo get_field( 'last_name' ) ?></strong></li>
 							<?php
