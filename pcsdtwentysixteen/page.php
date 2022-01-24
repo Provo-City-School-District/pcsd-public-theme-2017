@@ -5,7 +5,7 @@
 
    		<section class="content page">
    		<?php custom_breadcrumbs(); ?>
-   			<article <?php if(is_page(10048)){ echo('lang="es"');}?> id="activePost" class="activePost">
+   			<article <?php if(is_page(array(10048,57392,57517))){ echo('lang="es"');}?> id="activePost" class="activePost">
 
 				<?php
 					if(have_posts()) :
