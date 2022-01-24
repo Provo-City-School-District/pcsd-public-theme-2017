@@ -10,7 +10,7 @@
 	curl_exec($globalfooter);
 	// close cURL resource, and free up system resources
 	curl_close($globalfooter);
-?>	
+?>
 </section>
 </footer>
 	   <?php wp_footer(); ?>

@@ -23,8 +23,8 @@
 		</li>
 		</ul>
 	<h2>Teaching & Learning Contacts</h2>
-		
-		<?php  
+
+		<?php
 			echo file_get_contents('https://provo.edu/directory_page/teaching-and-learning/');
 		?>
 </aside>

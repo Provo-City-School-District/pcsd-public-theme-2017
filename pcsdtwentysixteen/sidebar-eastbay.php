@@ -17,8 +17,8 @@
 	</ul>
 
 	<h2>East Bay Post High Contacts</h2>
-		
-		<?php  
+
+		<?php
 			echo file_get_contents('https://provo.edu/directory_page/east-bay-post-high/');
 		?>
 		<!-- <?php dynamic_sidebar( 'globalsidebar' ); ?> -->

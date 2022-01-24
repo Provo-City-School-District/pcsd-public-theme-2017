@@ -1,4 +1,4 @@
-<aside id="sidebar" class="sidebar counseling">
+<aside id="sidebar" class="sidebar">
 	<?php
 		$i_am_buttons = curl_init();
 		curl_setopt($i_am_buttons, CURLOPT_URL, 'https://globalassets.provo.edu/globalpages/i-am-sidebar-links.php');
@@ -29,9 +29,8 @@
 			</li>
 		</ul>
 	<h2>CTE Contacts</h2>
-		<?php  
+		<?php
 			echo file_get_contents('https://provo.edu/directory_page/cte-admin/');
 		?>
-	
+
 </aside>
-		

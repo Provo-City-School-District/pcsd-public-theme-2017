@@ -18,7 +18,7 @@
 		</li>
 	</ul>
 	<h2>Board Member Contacts</h2>
-		
+
 		<div class="personalvCard">
 			<img src="https://provo.edu/wp-content/uploads/2018/03/hall-melanie.jpg" alt="Melanie Hall" />
 			<ul>
@@ -98,7 +98,7 @@
 			 	<li><strong>Term Ends:</strong> January 2024</li>
 			</ul>
 		</div>
-		
+
 		<div class="personalvCard">
 			<img src="https://provo.edu/wp-content/uploads/2021/03/gina-hale.jpg" alt="Gina Hales" />
 				<ul>
@@ -120,7 +120,7 @@
 					 <li class="phone">801-374-4805</li>
 					 <li class="email">bonniet@provo.edu</li>
 				</ul>
-				
+
 		</div>
 		<!-- <?php dynamic_sidebar( 'globalsidebar' ); ?> -->
 </aside>

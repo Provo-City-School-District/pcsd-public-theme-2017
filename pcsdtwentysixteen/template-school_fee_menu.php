@@ -16,10 +16,10 @@
 						while (have_posts()) : the_post();?>
 					   		<h1><?php the_title(); ?></h1>
 					   		<div>
-					   				<?php 
+					   				<?php
 						   				echo '<p>fees listed are maximum fees and may not reflect actual fees paid.<span class="right"><a href="https://provo.edu/pagos-escolares/">Pagos escolares</a></span></p>';
-										
-						   				the_content(); 
+
+						   				the_content();
 						   				?>
 						   				<h2>By Category</h2>
 						   				<?php
@@ -36,7 +36,7 @@
 										    ?>
 										    <div class="postgrid">
 										    <?php
-										foreach ( $terms as $term ) { 
+										foreach ( $terms as $term ) {
 										    ?>
 										    	<article class="post">
 										        <a href="<?php echo esc_url( get_term_link( $term ) ) ?>"><?php echo $term->name; ?></a>
@@ -44,9 +44,9 @@
 										    <?php
 										}
 										    ?>
-										    
+
 										    <?php
-									} 
+									}
 					   				?>
 					   				<h2>By Location</h2>
 					   					<article class="post">
@@ -120,7 +120,7 @@
 										</article>
 										<article class="post">
 										        <a href="https://provo.edu/school-fees/district-office/">District Office</a>
-										</article>								
+										</article>
 						   				</div>
 					   		</div>
 					   	<?php endwhile;

@@ -30,8 +30,8 @@
 		</li>
 	</ul>
 	<h2>Business Contacts</h2>
-		
-		<?php  
+
+		<?php
 			echo file_get_contents('https://provo.edu/directory_page/business/');
 		?>
 </aside>

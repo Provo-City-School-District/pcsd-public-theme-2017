@@ -69,7 +69,7 @@ function setcookie(cname,cvalue)
 	//d.setTime(d.getTime() + (24 * 60 * 60 * 1000 * 7));
 	//var expires = "expires="+d.toUTCString();
 	//expire at midnight the following day
-    
+
     var now = new Date();
     var expire = new Date();
 
@@ -131,7 +131,7 @@ function onClick(e) {
 email helpdesk form
 ==================================================================================================
 */
-//var bannedDomains = ["spam.com", "provo.edu"];  
+//var bannedDomains = ["spam.com", "provo.edu"];
 //document.addEventListener( 'wpcf7submit', function( event ) {
 //	  if ( '51410' == event.detail.contactFormId ) {
 //		//alert( "The contact form ID is 51410." );
@@ -151,10 +151,10 @@ for( schoolDemoCounter = 0; schoolDemoCounter < schoolDemo.length; schoolDemoCou
 	schoolDemo[schoolDemoCounter].addEventListener("click", function(e) {
 		// Toggle between adding and removing the "active" class,
 		//to highlight the button that controls the panel
-		if( jQuery(e.target).is('a') || jQuery(e.target).is('.active img') || jQuery(e.target).is('li') ) {			
-		
+		if( jQuery(e.target).is('a') || jQuery(e.target).is('.active img') || jQuery(e.target).is('li') ) {
+
 		} else {
-			this.classList.toggle("active");	
+			this.classList.toggle("active");
 		}
 	});
 }

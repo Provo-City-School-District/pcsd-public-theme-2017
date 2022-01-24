@@ -24,7 +24,7 @@
 		<li>Provo, UT 84604	</li>
 	</ul>
 	<h2>Title I Contacts</h2>
-		<?php  
+		<?php
 			echo file_get_contents('https://provo.edu/directory_page/title-i/');
 		?>
 </aside>

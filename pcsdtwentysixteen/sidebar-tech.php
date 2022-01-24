@@ -10,15 +10,15 @@
 		?>
 
 	<ul class="imagelist">
-		
+
 		<li>
 			<a href="https://canvas.provo.edu">
 				<img src="//globalassets.provo.edu/image/icons/pcsd-canvas-logo-white.png" alt="" />
 				<span>Canvas Login</span>
 			</a>
 		</li>
-		
-		
+
+
 	</ul>
 <h2>Chromebook Software</h2>
 <p>Provo City School District controls and monitors software on all Chromebooks. Software updates are sent out on a regular basis.</p>
@@ -31,12 +31,12 @@
 <p>ANY i-Ready trouble (even just getting on a device), please contact the i-Ready support number directly. 1-800-225-0248 7am-9pm Eastern Time. Monday-Friday Weekends or any time i-readysupport@cainc.com</p>
 
 <!--	<h2>Technology Contacts</h2> -->
-		<?php 
+		<?php
 			/*
 			echo file_get_contents('https://provo.edu/directory_page/tech-support-admin-sidebar/');
-			echo file_get_contents('https://provo.edu/directory_page/tech-support-staff-sidebar/');	
+			echo file_get_contents('https://provo.edu/directory_page/tech-support-staff-sidebar/');
 			echo '<h3>Field Technicians</h3>';
-			echo file_get_contents('https://provo.edu/directory_page/technology-field-tech/');	
+			echo file_get_contents('https://provo.edu/directory_page/technology-field-tech/');
 		*/
 		?>
 </aside>

@@ -54,7 +54,7 @@
 		</li>
 	</ul>
 	<h2>Public Relations Contacts</h2>
-		<?php  
+		<?php
 			echo file_get_contents('https://provo.edu/directory_page/administrative-building-communications-admin/');
 		?>
 </aside>

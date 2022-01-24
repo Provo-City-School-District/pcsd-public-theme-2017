@@ -23,7 +23,7 @@
 			</li>
 		</ul>
 	<h2>Superintendent Contacts</h2>
-		<?php  
+		<?php
 			echo file_get_contents('https://provo.edu/directory_page/superintendent/');
 		?>
 </aside>

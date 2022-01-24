@@ -574,8 +574,6 @@ function cptui_register_my_cpts() {
 
 	register_post_type( "tech_faq", $args );
 
-
-
 	/**
 	 * Post Type: Internship Locations
 	 */
@@ -610,94 +608,6 @@ function cptui_register_my_cpts() {
 	];
 
 	register_post_type( "internship_locations", $args );
-
-
-
-
-	/**
-	 * Post Type: COVID-19 Daily Stats.
-	 commented out this block on 03-03-2021
-
-	$labels = [
-		"name" => __( "COVID-19 Daily Stats", "custom-post-type-ui" ),
-		"singular_name" => __( "COVID-19 Daily Stats", "custom-post-type-ui" ),
-	];
-
-	$args = [
-		"label" => __( "COVID-19 Daily Stats", "custom-post-type-ui" ),
-		"labels" => $labels,
-		"description" => "",
-		"public" => true,
-		"publicly_queryable" => true,
-		"show_ui" => true,
-		"show_in_rest" => true,
-		"rest_base" => "",
-		"rest_controller_class" => "WP_REST_Posts_Controller",
-		"has_archive" => true,
-		"show_in_menu" => true,
-		"show_in_nav_menus" => true,
-		"delete_with_user" => false,
-		"exclude_from_search" => false,
-		"capability_type" => "post",
-		"map_meta_cap" => true,
-		"hierarchical" => true,
-		"rewrite" => [ "slug" => "covid_daily_stats", "with_front" => true ],
-		"query_var" => true,
-		"menu_icon" => "https://globalassets.provo.edu/image/icons/pcsd-icon-16x16.png",
-		"supports" => [ "title" ],
-	];
-
-	register_post_type( "covid_daily_stats", $args );
-	*/
-
-
-
-
-
-	/**
-	 * Post Type: COVID-19 Trends.
-	commented out this block on 03-03-2021
-
-	$labels = [
-		"name" => __( "COVID-19 Trends", "custom-post-type-ui" ),
-		"singular_name" => __( "COVID-19 Trends", "custom-post-type-ui" ),
-	];
-
-	$args = [
-		"label" => __( "COVID-19 Trends", "custom-post-type-ui" ),
-		"labels" => $labels,
-		"description" => "",
-		"public" => true,
-		"publicly_queryable" => true,
-		"show_ui" => true,
-		"show_in_rest" => true,
-		"rest_base" => "",
-		"rest_controller_class" => "WP_REST_Posts_Controller",
-		"has_archive" => false,
-		"show_in_menu" => true,
-		"show_in_nav_menus" => true,
-		"delete_with_user" => false,
-		"exclude_from_search" => false,
-		"capability_type" => "post",
-		"map_meta_cap" => true,
-		"hierarchical" => false,
-		"rewrite" => [ "slug" => "covid_19_trends", "with_front" => true ],
-		"query_var" => true,
-		"menu_icon" => "https://globalassets.provo.edu/image/icons/pcsd-icon-16x16.png",
-		"supports" => [ "title" ],
-	];
-
-	register_post_type( "covid_19_trends", $args );
-	*/
-
-
-
-
-
-
-
-
-
 
 
 	/**
@@ -978,10 +888,6 @@ function custom_email_confirmation_validation_filter( $result, $tag ) {
   return $result;
 }
 
-
-
-
-
 /*
 =============================================================================================
 define allowed block types
@@ -990,7 +896,6 @@ define allowed block types
 add_filter( 'allowed_block_types', 'pcsd_allowed_block_types' );
 
 function pcsd_allowed_block_types( $allowed_blocks ) {
-
 	return array(
 		'core/paragraph',
 		'core/image',

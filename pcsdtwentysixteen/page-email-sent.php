@@ -20,7 +20,6 @@
 	if(!$_POST['senderemail']||isset($_POST['sanity'])) {
 		echo'<script>setTimeout(function(){window.location.href="https://provo.edu"},100);</script>';
 		die();
-
 	}
 	$email_blacklist = array('vetus_republic_iii_percent@protonmail.com','bademail@gmail.com', 'bayville@gmail.com', 'chrisfuhriman9@gmail.com');
 	if (array_search($from, $email_blacklist) !== false) {

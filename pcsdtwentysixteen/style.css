@@ -5,8 +5,6 @@
 	Version: 2.0.25
 */
 @import url("https://globalassets.provo.edu/css/globalstyles-min-sandbox.css?v=1.0.01");
-
-
 /*--------------------------------------------------------------------
 Variables
 --------------------------------------------------------------------*/
@@ -50,68 +48,34 @@ Global Site Styles
 h1#siteTitle {position: absolute;margin-left: -9999px;}
 #appSurveySubmit {display: none;}
 .blue {color: blue;}
-
-form.emailForm p {
-	 display: inline;
- }
-/*
---------------------------------------------------------------------
-App Survey Styles
---------------------------------------------------------------------
-*/
-/*
-#anythingElse {border: 1px solid #ccc;padding: 10px;width: 100%;height: 50px;}
-#surveySubmit {
-	background-color: #21395a;
-	color: #dce2e8;
-	border-radius: 3px;
-	padding: 10px;
-}
-*/
+form.emailForm p { display: inline; }
 /*
 --------------------------------------------------------------------
 Construction Projects styles
 --------------------------------------------------------------------
 */
-.construction table td.grey, .construction table th.grey {background-color: #C1C5C3;}
-.construction table td.yellow, .construction table th.yellow {background-color: #F4C15F;}
-.construction table td.blue, .construction table th.blue {background-color: #7CB1D2;}
-.construction table td.green, .construction table th.green {background-color: #62AC81;}
-.construction table td.orange, .construction table th.orange {background-color: #EC8049;}
-.construction table td.altgrey {background-color: #D9D9D9;}
-.construction table td.lightgrey {background-color: #E6E6E6;}
-.studentServices .currentContent .content-featured-image {
-	height: 212px;
-}
-/*
---------------------------------------------------------------------
-School Splash Page styles
---------------------------------------------------------------------
-*/
-/*
-.postgrid .school ul {
-	margin-left: 0;
-}
-.postgrid .school ul li {
-	list-style: none;
-	margin-left: 0;
-}
-*/
+.construction table td.grey,
+.construction table th.grey {background-color: #C1C5C3;}
+.construction table td.yellow,
+.construction table th.yellow {background-color: #F4C15F;}
+.construction table td.blue,
+.construction table th.blue {background-color: #7CB1D2;}
+.construction table td.green,
+.construction table th.green {background-color: #62AC81;}
+.construction table td.orange,
+.construction table th.orange { background-color: #EC8049; }
+.construction table td.altgrey { background-color: #D9D9D9; }
+.construction table td.lightgrey { background-color: #E6E6E6; }
+.studentServices .currentContent .content-featured-image { height: 212px; }
 /*
 ================================================================================================================
 school demo page
 https://provo.edu/school-demographics/
 ================================================================================================================
 */
-.demographics {
-	padding: 2%;
-}
-.activePost .demographics:nth-child(even) {
-	background-color: #f1f5f9;
-}
-.activePost .demographics:nth-child(odd) {
-	background-color: #dbe1e7;
-}
+.demographics { padding: 2%; }
+.activePost .demographics:nth-child(even) { background-color: #f1f5f9; }
+.activePost .demographics:nth-child(odd) { background-color: #dbe1e7; }
 .demographics ul, .demographics ul li {
 	list-style: none;
 	margin-left: 0;
@@ -123,9 +87,7 @@ https://provo.edu/school-demographics/
 	margin-left: 2%;
 	display: inline-block;
 }
-.demographics .princimg {
-	max-width: 120px;
-}
+.demographics .princimg { max-width: 120px; }
 /* for the fake table area */
 .demographics .demoDisplay {
 	padding: 0px;
@@ -202,132 +164,6 @@ https://provo.edu/school-demographics/
 		margin-top: 20px;
 	}
 }
-
-
-
-
-/*
-.demographics {
-	padding: 5px 0 10px 10px;
-}
-.demographics h3 {
-	margin-top: 5px;
-}
-.demographics .schoolimg .address,.demographics .schoolinfo, .demographics .schoolinfo-cont, .demographics .demoDisplay {
-	display: none;
-}
-.activePost article:nth-child(even) {
-	background-color: #f1f5f9;
-}
-.activePost article:nth-child(odd) {
-	background-color: #dbe1e7;
-}
-.demographics .schoolimg:before {
-	content: '\02795'; /* Unicode character for "plus" sign (+)
-	position: absolute;
-	right: 30px;
-}
-.demographics.active .schoolimg:before {
-	content: "\2796"; /* Unicode character for "minus" sign (-)
-}
-.demographics .schoolimg img {
-	width: 125px;
-}
-.demographics.active .schoolimg img {
-	width: 600px;
-}
-.demographics.active li {
-	list-style: none;
-	color: #03375b;
-}
-.demographics.active .schoolimg ul, .demographics.active .schoolimg ul li {margin-left: 0;}
-.demographics.active .schoolimg {
-	width: 38%;
-	padding-left: 25px;
-	display: inline-block;
-	vertical-align: top;
-}
-.demographics.active .schoolinfo {
-	width: 24%;
-	display: inline-block;
-	vertical-align: top;
-}
-.demographics.active .schoolinfo ul {margin-left: 0;}
-.demographics.active .schoolinfo .website {margin-left: 0px;}
-.demographics.active .schoolinfo .address {margin-bottom: 0em;}
-.demographics.active .schoolinfo .phone {margin-top:0;}
-.demographics.active .schoolinfo .principal {margin-bottom: 0em;}
-.demographics.active .schoolinfo .princemail,.demographics .schoolinfo .princimg {margin-top:0;margin-bottom: 0;}
-.demographics.active .schoolinfo .princimg {max-width: 120px;}
-.demographics.active .schoolinfo .princprof {margin-left: 0px;margin-top: 0;font-style: italic;font-weight: normal;}
-.demographics.active .schoolinfo-cont {
-	width: 34%;
-	display: inline-block;
-	vertical-align: top;
-}
-.demographics.active .schoolinfo-cont ul {margin-left: 0;}
-.demographics.active .schoolinfo-cont .demo {margin-left: 40px;}
-.demographics.active .schoolinfo-cont .boundary {list-style-image: none!important;}
-.demographics.active .schoolinfo-cont .feeder {margin: 0 0 0 15px;}
-.demographics.active .schoolinfo-cont .inNews {margin-left: 40px;}
-.demographics.active .schoolinfo-cont .socialicons{
-	width: 40px;
-	margin-left: 40px;
-	display: inline-block;
-}
-.demographics.active .demoDisplay {
-	padding: 0px;
-	padding-bottom: 10px;
-	display: flex;
-	flex-wrap: wrap;
-	overflow: hidden;
-	max-height: 386px;
-	min-width: 350px;
-}
-.demoDisplay p {
-	margin-bottom: 35px;
-	flex-basis: 100%;
-}
-.activePost .demoDisplay .demo-info:first-of-type {
-	flex-basis: 35%;
-	min-width: 166px;
-	text-align: left;
-}
-.activePost .demoDisplay .demo-info {
-	/* Change the flex-basis to adjust how many columns there can be.
-	flex-basis: 13%;
-	min-width: 93px;
-	background-color: #fff;
-	margin:0;
-	text-align: right;
-}
-.activePost .demoDisplay .demo-info ul {
-	margin: 0;
-}
-.activePost .demoDisplay .demo-info ul li:first-of-type {
-	background-color: #013c6c;
-	color: #fff;
-}
-.activePost .demoDisplay .demo-info ul li {
-	margin: 0;
-	padding: 5px 1% 5px 1%;
-	border: 1px solid #ccc;
-}
-.activePost .demoDisplay .demo-info ul .demo_ell:after {
-	content: "ELL";
-}
-.activePost .demoDisplay .demo-info ul .demo_eco:after {
-	content: 'Eco. Disadvantaged';
-}
-@media (min-width: 1087px) {
-	.activePost .demoDisplay .demo-info ul .demo_ell:after {
-		content: "English Language learners (ELL)";
-	}
-	.activePost .demoDisplay .demo-info ul .demo_eco:after {
-		content: 'Economically Disadvantaged';
-	}
-}
-*/
 /*
 --------------------------------------------------------------------
 Child Nutrition styles
@@ -354,344 +190,7 @@ Child Nutrition styles
 Fingerprinting styles
 ================================================================================================================
 */
-.bookly-time-zone-switcher {
-	display: none!important;
-}
-/*
-================================================================================================================
-Front page Slider
-================================================================================================================
-*/
-/*
-#announcments {background-color: #fff;z-index:500;}
-#announcments h1 {
-	position: absolute;
-	left: -9999px
-}
-.slide {
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	position: relative;
-	height: 700px;
-
-}
-.slide .slide-text {
-	position: absolute;
-	bottom: 20%;
-	right: 0;
-	left: 0;
-	background-color:#ccd5df;
-	background-color:rgba(225,233,244,0.9);
-	padding: 5px 5px 10px 15px;
-}
-
-*/
-/*
---------------------------------------------------------------------
-old styles removed 8-9-21 Home Slider
---------------------------------------------------------------------
-
-.cb-slideshow,
-.cb-slideshow:after {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    z-index: 0;
-    margin-left: 0;
-}
-.cb-slideshow:after {
-    content: '';
-    background: transparent;
-}
-.cb-slideshow li span {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    color: transparent;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: none;
-    opacity: 0;
-    z-index: 0;
-    animation: imageAnimation 30s linear infinite 0s;
-}
-.cb-slideshow li div {
-    background-color: rgb(255, 255, 255);
-	background-color: rgba(255, 255, 255, 0.6);
-    z-index: 1000;
-    position: absolute;
-    top:50%;
-    transform: translateY(-50%);
-    left: 0px;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    line-height: 2.5em;
-    padding: 20px;
-    animation: titleAnimation 30s linear infinite 0s;
-}
-.cb-slideshow li div h2 {
-    font-size: 3.5em;
-    font-weight: 500;
-    width: 60%;
-    margin-left: 10%;
-    padding: 0;
-}
-.cb-slideshow li div p {
-	font-size: 2em;
-	width: 60%;
-
-	color: #02365b;
-	margin-left: 10%;
-	margin-top: 10px;
-	text-align: center;
-	font-weight: bold;
-}
-.cb-slideshow li:nth-child(1) span {
-    background-image: url('https://provo.edu/wp-content/uploads/2021/08/frontpage-graduation-slide1-scaled.jpg');
-}
-.cb-slideshow li:nth-child(2) span {
-    background-image: url('https://provo.edu/wp-content/uploads/2021/08/frontpage-graduation-slide2-1.jpg');
-    animation-delay: 10s;
-}
-.cb-slideshow li:nth-child(3) span {
-    background-image: url('https://provo.edu/wp-content/uploads/2021/08/frontpage-graduation-slide3-scaled.jpg');
-    animation-delay: 20s;
-}
-.cb-slideshow li:nth-child(4) span {
-    background-image: url(../images/4.jpg);
-    animation-delay: 30s;
-}
-.cb-slideshow li:nth-child(5) span {
-    background-image: url(../images/5.jpg);
-    animation-delay: 40s;
-}
-.cb-slideshow li:nth-child(6) span {
-    background-image: url(../images/6.jpg);
-    animation-delay: 50s;
-}
-.cb-slideshow li:nth-child(1) div {
-	 animation-delay: 0s;
-}
-.cb-slideshow li:nth-child(2) div {
-    animation-delay: 10s;
-}
-.cb-slideshow li:nth-child(3) div {
-    animation-delay: 20s;
-}
-.cb-slideshow li:nth-child(4) div {
-    animation-delay: 30s;
-}
-.cb-slideshow li:nth-child(5) div {
-    animation-delay: 40s;
-}
-.cb-slideshow li:nth-child(6) div {
-    animation-delay: 50s;
-}
-@keyframes imageAnimation {
-    0% { opacity: 0;}
-    2% { opacity: 1; animation-timing-function: ease-out; }
-    34% { opacity: 1 }
-    35% { opacity: 0 }
-    100% { opacity: 0 }
-}
-@keyframes titleAnimation {
-   	0% { opacity: 0 }
-    2% { opacity: 1 }
-    34% { opacity: 1 }
-    35% { opacity: 0 }
-    100% { opacity: 0 }
-}
-.no-cssanimations .cb-slideshow li span{
-	opacity: 1;
-}
-*/
-
-/*
---------------------------------------------------------------------
-old home page block area removed 8-9-21 Home Page blog box
---------------------------------------------------------------------
-
-.homeMainContent {
-	position: relative;
-	top:125px;
-	background-image: url('//globalassets.provo.edu/image/backgrounds/contentarea-texture-dk.jpg');
-}
-#distAlerts {
-	max-width: 90%;
-	position: absolute;
-	top: 20px;
-	right: 80px;
-	z-index: 800;
-}
-#distAlerts .theAlerts {display: none;font-size: 1em;}
-#distAlerts .postCount {
-	background-color: #fff;
-	font-size: 20px;
-	color: #ef0909;
-	border-radius: 50%;
-	line-height: 1;
-	padding: 5px 10px 5px 10px;
-	margin-left: 8px;
-}
-#distAlerts h2 {
-	font-size: 1.6em;
-}
-#distAlerts h2 a{
-	color: #fff;
-	width: 235px;
-	float: right;
-	font-size: 1em;
-	padding: 10px 0 10px 15px;
-	background-color: #ef0909;
-	border-radius: 3px;
-}
-#distAlerts .alert {
-	display: block;
-	max-width: 100%;
-	margin-right: 247px;
-	padding: 10px 10px 10px 40px;
-	background-color: #ef0909;
-	border-radius: 3px;
-
-}
-#distAlerts .closeAlert {
-	float: left;
-	width: 20px;
-	margin: 10px;
-}
-#distAlerts .active {
-	display: block;
-	animation-name: none;
-	animation-name: slidein;
-	animation-duration: 0.2s;
-	overflow-y: scroll;
-
-	height: 48vh;
-	width: 100%;
-
-}
-@keyframes slidein {
-	from { margin-left: 600px;}
-	to {margin-left: 0px;}
-}
-#distAlerts .alert a {
-	color: #fff;
-}
-#distAlerts .alert a:hover, #distAlerts .alert a:focus {
-	color: #dae1e7;
-	text-decoration: underline;
-}
-#distAlerts .alert p {
-	color: #fff;
-}
-#covid4lyfe {
-	background-image: url('https://provo.edu/wp-content/uploads/2020/03/covid-fade-250.jpg');
-	background-repeat: none;
-	height: 53px;
-	width: 100%;
-	max-width: 250px;
-	position: absolute;
-
-	top: 93px;
-	right: 80px;
-	z-index: 900;
-	border-radius: 3px;
-	background-color: #0d6830;
-}
-#covid4lyfe h2, #covid4lyfe h1 {
-	padding: 0 0 2px 0px;
-	margin: 0;
-	text-align: center;
-}
-#covid4lyfe h2 a, #covid4lyfe h1 a {
-	color: #fff;
-	font-size: 0.6em;
-}
-#bondButton {
-	height: 53px;
-	width: 100%;
-	max-width: 250px;
-	position: absolute;
-	top: 151px;
-	right: 80px;
-	z-index: 900;
-	border-radius: 3px;
-	background-color: #0d6830;
-}
-#bondButton h1 {
-	padding: 0 0 2px 0px;
-	margin: 0;
-	text-align: center;
-}
-#bondButton h1 a {
-	color: #fff;
-	font-size: 0.6em;
-}
-#homeNews {
-
-	max-width: 250px;
-	height: 233px;
-	position: absolute;
-	top: 155px;
-	right: 80px;
-	overflow: hidden;
-	background-color: #21395a;
-	border-radius: 3px;
-	padding-bottom: 5px;
-	z-index: 850;
-}
-#homeNews h2 {
-	color: #dae1e7;
-	margin-top: 10px;
-	margin-left: 15px;
-	margin-bottom: 0px;
-	font-size: 1.7em;
-}
-#homeNews .stories {
-
-	overflow-y: scroll;
-	overflow-x: hidden;
-	height: 82%;
-}
-#homeNews article {
-	max-width: 100%;
-	height: 158px;
-	padding: 0px 10px 8px 10px;
-	position: relative;
-}
-#homeNews article h3 {
-	position: absolute;
-	width: 84%;
-	font-size: 1em;
-	top: auto;
-	bottom: 0;
-	left: 0;
-	padding: 10px 10px 10px 10px;
-	margin-left: 10px;
-	background-color: rgb(255, 255, 255);
-	background-color: rgba(255, 255, 255, 0.8);
-}
-#homeNews article h3 a {
-	text-decoration: none;
-	color: #012f51;
-}
-#homeNews .stories .readMore a {
-	color: #dae1e7;
-	display: block;
-	float: right;
-	margin-right: 10px;
-}
-#homeNews .stories .readMore a:hover, #homeNews .stories .readMore a:focus {
-	color: #fff;
-	text-decoration: underline;
-}
-*/
+.bookly-time-zone-switcher { display: none!important; }
 /*
 --------------------------------------------------------------------
 contact form 7 response output
@@ -701,51 +200,6 @@ contact form 7 response output
 	float: right;
 	margin-top: -48px;
 }
-
-/*
---------------------------------------------------------------------
-Home Page News
---------------------------------------------------------------------
-https://provo.edu/superintendent/provo-way/
-*/
-/*
-#homeNews {
-	display: block;
-	margin-bottom: 80px;
-	padding-top: 80px;
-}
-#homeNews .stories {
-	display: flex;
-}
-#homeNews .stories h2 {
-	max-width: 95%;
-	text-align: left;
-	padding-left: 5%
-}
-#homeNews .stories article:first-of-type {
-	margin-left: 0;
-}
-#homeNews .stories article {
-	margin-left: 3%;
-	background-color: var(--main-ltblue-color);
-	max-width: 32%;
-}
-#homeNews .stories .articleContent {
-	padding-left: 5%;
-	padding-right: 5%;
-	text-align: left;
-	height: 85px;
-	overflow: hidden;
-}
-#homeNews .stories .readMore {
-	text-align: left;
-	padding-left: 5%;
-	margin-top:0;
-}
-#homeNews .stories .postDate {
-	text-align: right;
-}
-*/
 /*
 --------------------------------------------------------------------
 The Superintendents Brick Thing The Provo Way
@@ -819,7 +273,6 @@ https://provo.edu/superintendent/provo-way/
 	left: 70px;
 	top: 10px;
 	overflow: hidden;
-
     -webkit-transform: rotate(45deg);
 	-moz-transform:    rotate(45deg);
 	-ms-transform:     rotate(45deg);
@@ -846,9 +299,7 @@ https://provo.edu/superintendent/provo-way/
 live chat Styles
 -----------------------------------------------------------------------------------------------
 */
-#wp-live-chat {
-	bottom:80px!important;
-}
+#wp-live-chat { bottom:80px!important; }
 /*
 -----------------------------------------------------------------------------------------------
 Covid stats page Styles
@@ -941,10 +392,6 @@ Responsive Portrait styles
 		width: 50%;
 	}
 }
-@media (max-width: 920px) {
-}
-@media (max-width: 880px) {
-}
 @media (max-width: 750px) {
 	.demographics .schoolimg {
 		width: 95%;
@@ -957,13 +404,6 @@ Responsive Portrait styles
 		width: 95%;
 		text-align: center;
 	}
-}
-@media (max-width: 600px) {
-	}
-@media (max-width: 525px) {
-	}
-@media (max-height: 400px) {
-
 }
 @media print {
 	@page {
