@@ -4,7 +4,7 @@
 	Author URI: https://employee.provo.edu/technology/
 	Version: 2.0.25
 */
-@import url("https://globalassets.provo.edu/css/globalstyles-min-sandbox.css?v=1.0.1");
+@import url("https://globalassets.provo.edu/css/globalstyles-min-sandbox.css?v=1.0.01");
 
 
 /*--------------------------------------------------------------------
@@ -348,14 +348,6 @@ Child Nutrition styles
 .childNutrition .cn-nds {
 	background-color: #dbe1e7;
 	padding: 20px;
-}
-/*
---------------------------------------------------------------------
-east bay post high styles
---------------------------------------------------------------------
-*/
-.ebph-sidebar .personalvCard ul .phone {
-	display: none;
 }
 /*
 ================================================================================================================
@@ -921,21 +913,6 @@ https://provo.edu/school-fees/
 	text-align: center;
 	display: block;
 	font-size: 23px;
-}
-/*
---------------------------------------------------------------------
-Counseling styles
---------------------------------------------------------------------
-*/
-.counseling .imagelist li {
-	margin: 25px 0 25px 0;
-}
-.counseling .imagelist li a img {
-	width: 50px;
-	height: 50px;
-}
-.counseling .imagelist li a span {
-	width: 165px;
 }
 /*
 --------------------------------------------------------------------------------------------------------------

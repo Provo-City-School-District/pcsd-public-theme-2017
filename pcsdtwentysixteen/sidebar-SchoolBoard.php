@@ -1,4 +1,4 @@
-<aside id="sidebar" class="sidebar boardsidebar">
+<aside id="sidebar" class="sidebar">
 	<?php
 		$i_am_buttons = curl_init();
 		curl_setopt($i_am_buttons, CURLOPT_URL, 'https://globalassets.provo.edu/globalpages/i-am-sidebar-links.php');
