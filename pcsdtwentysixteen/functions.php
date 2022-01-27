@@ -14,7 +14,7 @@ function pcsd_scripts_styles() {
 
 	/*   REGISTER ALL CSS FOR SITE */
 	/*   CALL ALL CSS AND SCRIPTS FOR SITE */
-	wp_enqueue_style( 'style', get_stylesheet_uri(), '', '1.0.1', false);
+	wp_enqueue_style( 'style', get_stylesheet_uri(), '', '1.0.01', false);
 	wp_enqueue_style( 'parent-styles', get_template_directory_uri() . '/assets/css/parent-styles.css','','1.0.01', false);
 	wp_enqueue_script( 'slick_slider');
 	wp_enqueue_script( 'mega_menu');

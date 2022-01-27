@@ -40,7 +40,43 @@
 								   					<?php }	?>
 
 										<?php the_content(); ?>
-										   </div>
+										<div class="post_sig"> <!-- post_sig -->
+										<?php
+											//fetch post author display name
+											$authorname = get_the_author_meta('display_name', false);
+											//set variable base
+											$avatar = '';
+											$authortitle = '';
+
+											//check the author to decide title and avatar
+											//I wanted to link this directly to the directory, but the profiles built into wordpress use the Gravatar system which requires registering on a external site. Because of this I decided to just program the information in for hte common posters for now. I plan to find a more automated way to do this in the future.
+											if( $authorname == 'Alexander Glaves') {
+												$avatar = 'https://provo.edu/wp-content/uploads/2021/05/alexander-glaves-1.jpg';
+												$authortitle = 'Social Media/Marketing Specialist';
+											}elseif ( $authorname == 'Caleb Price') {
+												$avatar = 'https://provo.edu/wp-content/uploads/2020/01/price-caleb.jpg';
+												$authortitle = 'Director of Communications';
+											}elseif ( $authorname == 'Shauna Sprunger') {
+												$avatar = 'https://provo.edu/wp-content/uploads/2020/01/sprunger-shauna.jpg';
+												$authortitle = 'Coordinator of Communications';
+											}elseif ( $authorname == 'Spencer Tuinei') {
+												$avatar = 'https://provo.edu/wp-content/uploads/2022/01/spencer-tuinei.png';
+												$authortitle = 'Communication Specialist';
+											}elseif ( $authorname == 'Keith Rittel') {
+												$avatar = 'https://provo.edu/wp-content/uploads/2017/02/rittel-keith-1.jpg';
+												$authortitle = 'Superintendent';
+											}else {
+												$avatar = 'https://secure.gravatar.com/avatar/d8bb45e8c362b840cef4c235944c56ab?s=96&d=mm&r=g';
+											}
+											//output the actual signature on the post
+										?>
+										<img src="<?php echo $avatar; ?>" alt="<?php echo $authorname; ?>"  class="staff-member-photo" />
+										<ul>
+
+											<li class="title"><?php echo $authortitle; ?></li>
+											<li class="name"><?php echo $authorname; ?></li>
+										</ul>
+									</div>
 
 					   	<?php endwhile;
 							else :
