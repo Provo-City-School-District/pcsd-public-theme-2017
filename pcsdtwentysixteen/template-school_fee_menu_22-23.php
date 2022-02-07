@@ -1,6 +1,6 @@
 <?php
 /*
-	Template Name: School Fee Menu
+	Template Name: School Fee Menu 22-23
 */
 	get_header();
 ?>
@@ -8,7 +8,8 @@
    		<section class="content page">
    			<ol class="breadcrumbs" id="breadcrumbs">
 		   		<li><a href="https://provo.edu/">Home</a> / </li>
-		   		<li>School Fees</li>
+				   <li><a href="https://provo.edu/school-fees/">School Fees</a> / </li>
+		   		<li>School Fees 22-23</li>
 	   		</ol>
    			<article class="activePost schoolFeesMenu">
 				<?php
@@ -17,7 +18,7 @@
 					   		<h1><?php the_title(); ?></h1>
 					   		<div>
 					   				<?php
-						   				echo '<p>fees listed are maximum fees and may not reflect actual fees paid.<span class="right"><a href="https://provo.edu/pagos-escolares/">Pagos escolares</a></span></p>';
+						   				echo '<p>fees listed are maximum fees and may not reflect actual fees paid.<span class="right"><a href="https://provo.edu/pagos-escolares-22-23/">Pagos escolares 22-23</a></span></p>';
 
 						   				the_content();
 						   				?>
@@ -26,8 +27,8 @@
 						   				// Get the taxonomy's terms
 										$terms = get_terms(
 										    array(
-										        'taxonomy'   => 'school_fees_categories',
-										        'hide_empty' => false,
+												'taxonomy'   => 'school_fees_categories_2223',
+										        'hide_empty' => true,
 										    )
 										);
 										// Check if any term exists
@@ -50,76 +51,76 @@
 					   				?>
 					   				<h2>By Location</h2>
 					   					<article class="post">
-										        <a href="https://provo.edu/school-fees/district-wide/">District Wide</a>
+										        <a href="https://provo.edu/school-fees-22-23/district-wide/">District Wide</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/amelia-earhart/">Amelia Earhart</a>
+										        <a href="https://provo.edu/school-fees-22-23/amelia-earhart/">Amelia Earhart</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/canyon-crest/">Canyon Crest</a>
+										        <a href="https://provo.edu/school-fees-22-23/canyon-crest/">Canyon Crest</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/edgemont/">Edgemont</a>
+										        <a href="https://provo.edu/school-fees-22-23/edgemont/">Edgemont</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/franklin/">Franklin</a>
+										        <a href="https://provo.edu/school-fees-22-23/franklin/">Franklin</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/lakeview/">Lakeview</a>
+										        <a href="https://provo.edu/school-fees-22-23/lakeview/">Lakeview</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/provost/">Provost</a>
+										        <a href="https://provo.edu/school-fees-22-23/provost/">Provost</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/provo-peaks/">Provo Peaks</a>
+										        <a href="https://provo.edu/school-fees-22-23/provo-peaks/">Provo Peaks</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/rock-canyon/">Rock Canyon</a>
+										        <a href="https://provo.edu/school-fees-22-23/rock-canyon/">Rock Canyon</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/spring-creek/">Spring Creek</a>
+										        <a href="https://provo.edu/school-fees-22-23/spring-creek/">Spring Creek</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/sunset-view/">Sunset View</a>
+										        <a href="https://provo.edu/school-fees-22-23/sunset-view/">Sunset View</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/timpanogos/">Timpanogos</a>
+										        <a href="https://provo.edu/school-fees-22-23/timpanogos/">Timpanogos</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/wasatch/">Wasatch</a>
+										        <a href="https://provo.edu/school-fees-22-23/wasatch/">Wasatch</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/westridge/">Westridge</a>
+										        <a href="https://provo.edu/school-fees-22-23/westridge/">Westridge</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/centennial-middle/">Centennial Middle</a>
+										        <a href="https://provo.edu/school-fees-22-23/centennial-middle/">Centennial Middle</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/dixon-middle/">Dixon Middle</a>
+										        <a href="https://provo.edu/school-fees-22-23/dixon-middle/">Dixon Middle</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/independence-high/">Independence High</a>
+										        <a href="https://provo.edu/school-fees-22-23/independence-high/">Independence High</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/provo-high/">Provo High</a>
+										        <a href="https://provo.edu/school-fees-22-23/provo-high/">Provo High</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/timpview-high/">Timpview High</a>
+										        <a href="https://provo.edu/school-fees-22-23/timpview-high/">Timpview High</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/provo-transition-services-ebph/">Provo Transition Services/EBPH</a>
+										        <a href="https://provo.edu/school-fees-22-23/provo-transition-services-ebph/">Provo Transition Services/EBPH</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/eschool/">eSchool</a>
+										        <a href="https://provo.edu/school-fees-22-23/eschool/">eSchool</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/provo-adult-education/">Provo Adult Education</a>
+										        <a href="https://provo.edu/school-fees-22-23/provo-adult-education/">Provo Adult Education</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/preschools/">Preschools</a>
+										        <a href="https://provo.edu/school-fees-22-23/preschools/">Preschools</a>
 										</article>
 										<article class="post">
-										        <a href="https://provo.edu/school-fees/district-office/">District Office</a>
+										        <a href="https://provo.edu/school-fees-22-23/district-office/">District Office</a>
 										</article>
 						   				</div>
 					   		</div>
