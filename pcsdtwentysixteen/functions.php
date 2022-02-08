@@ -779,7 +779,7 @@ $school_fees_args = [
 	"taxonomies" => [ "school_fees_categories" ],
 ];
 
-register_post_type( "school_fees", $school_fees_args );
+//register_post_type( "school_fees", $school_fees_args );
 
 /*===========================================================================================
 Post Type: School Fees 21-22
@@ -888,7 +888,7 @@ $cuotas_escolares_args = [
 	"taxonomies" => [ "school_fees_categories" ],
 ];
 
-register_post_type( "pagos_escolares", $cuotas_escolares_args );
+//register_post_type( "pagos_escolares", $cuotas_escolares_args );
 /*===========================================================================================
 Post Type: School Fees 2021-2022 (Spanish) Pagos escolares
 ===========================================================================================*/
@@ -1045,7 +1045,7 @@ function cptui_register_my_taxes() {
 		"rest_controller_class" => "WP_REST_Terms_Controller",
 		"show_in_quick_edit" => false,
 			];
-	register_taxonomy( "school_fees_categories", [ "school_fees" ], $school_fees_categories_args );
+	//register_taxonomy( "school_fees_categories", [ "school_fees" ], $school_fees_categories_args );
 
 	/*===========================================================================================
 	Taxonomy: School Fees Categories 21-22
@@ -1129,7 +1129,7 @@ function cptui_register_my_taxes() {
 		"rest_controller_class" => "WP_REST_Terms_Controller",
 		"show_in_quick_edit" => false,
 			];
-	register_taxonomy( "school_fees_categories_spanish", [ "pagos_escolares" ], $school_fees_categories_spanish_args );
+	//register_taxonomy( "school_fees_categories_spanish", [ "pagos_escolares" ], $school_fees_categories_spanish_args );
 
 	/*===========================================================================================
 	Taxonomy: School Fees Categories Spanish 21-22.
