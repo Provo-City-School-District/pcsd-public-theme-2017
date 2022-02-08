@@ -21,6 +21,7 @@ function pcsd_scripts_styles() {
 	wp_enqueue_script( 'cookie_script');
 	wp_enqueue_script( 'global_scripts');
 	wp_enqueue_script( 'my_custom_scripts');
+	//does not load the link Detection script on menu pages
 	if ( !is_page(array(4150,4148,4142)) ) {
 		wp_enqueue_script( 'linkDetection');
 	}
