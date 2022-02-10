@@ -42,7 +42,7 @@
 					//Check if location is a middle school
 					if (in_array( $location_of_fees_to_display['value'], $middle_locations )) {
 						//if middle school output general fees middle schools post which is currently postID 18742
-						$middle_gen_fees = get_fields(20994);
+						$middle_gen_fees = get_fields(59769);
 						?>
 						<h2>Tarifa general requerida - Escuelas media</h2>
 						<?php
@@ -102,7 +102,7 @@
 					//check if location is a highschool
 					if (in_array( $location_of_fees_to_display['value'], $high_locations )) {
 						//if High School output general fees High School post which is currently postID 19380
-						$high_gen_fees = get_fields(21170);
+						$high_gen_fees = get_fields(59943);
 						//print_r($high_gen_fees);
 						?>
 						<h2>Tarifa general requerida - Escuelas secondarias</h2>
@@ -170,7 +170,7 @@
 				         array_push($post_ids_array, $id->post_id);
 			          }
 					  	//check if general fee IDs are 19380 and 18742
-					  	$exlude_ids = array(20994, 21170);
+					  	$exlude_ids = array(59943, 59769);
 					  	//print_r($post_ids_array);
 					  	/*
 						  Found a bug where some school had been excluding the general fees from the rest of the list of fees, but somewhere not.
@@ -190,6 +190,10 @@ I changed the code so that the search would happen before the if statement and t
 
 					  	}
 					  	//print_r($post_ids_array);
+						  //detect duplicate IDs
+							$dupe_id_remove = array_count_values($post_ids_array);
+						   // print_r(array_keys($dupe_id_remove));
+							$post_ids_array = array_keys($dupe_id_remove);
 			          //list breakdown for each activity
 			          foreach($post_ids_array as $activiy_id) {
 					  		//echo activity name
