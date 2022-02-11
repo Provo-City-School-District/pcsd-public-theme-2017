@@ -8,7 +8,7 @@ function pcsd_scripts_styles() {
 	wp_register_script( 'mega_menu', 'https://globalassets.provo.edu/js/jquery-accessibleMegaMenu.js', array('jquery'), '1.0.01', true);
 	wp_register_script( 'cookie_script', 'https://globalassets.provo.edu/js/cookie.js', array('jquery'), '1.0.01', true);
 	wp_register_script( 'global_scripts', get_template_directory_uri() .'/assets/js/parentscripts.js', array('jquery', 'mega_menu','slick_slider'), '1.0.01', true);
-	wp_register_script( 'my_custom_scripts',get_template_directory_uri() .'/assets/js/childscripts.js', array('cookie_script','mega_menu','global_scripts'), '1.0.05', true);
+	wp_register_script( 'my_custom_scripts',get_template_directory_uri() .'/assets/js/childscripts.js', array('cookie_script','mega_menu','global_scripts'), '1.0.06', true);
 	wp_register_script( 'linkDetection',get_template_directory_uri() .'/assets/js/linkDetection.js', '','1.0.01', true);
 	wp_register_script( '404easterEgg', 'https://globalassets.provo.edu/js/404.js', '', '1.0.01', true );
 

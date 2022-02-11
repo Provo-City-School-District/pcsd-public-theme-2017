@@ -11,7 +11,7 @@ jQuery(".iambutton").click( function() {
 
 //makes the main anchor on the Iam Buttons not work if the viewport is above 685px.
 jQuery(document).ready(function() {
-	jQuery(".iambutton a:first-child").on("click", function(e) {
+	jQuery(".iambutton > a:first-child").on("click", function(e) {
 		if (jQuery(window).width() > 685) {
 			e.preventDefault();
 		}
