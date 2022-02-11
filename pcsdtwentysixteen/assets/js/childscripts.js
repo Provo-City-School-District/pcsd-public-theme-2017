@@ -3,23 +3,19 @@
 I am Click to toggle
 =============================================================================================================
 */
+//toggles the .on class to I Am buttons to activate menu flyout.
 jQuery(".iambutton").click( function() {
-	var e=window.event||e;
-	if (jQuery(window).width() > 685) {
-		e.preventDefault();
-	}
 	jQuery('.on').not(this).removeClass('on');
 	jQuery(this).toggleClass("on");
-	//jQuery('html').animate({scrollTop: jQuery(this)},'fast');
-	//add removable with delay after hover leaves the iAM buttons
-	/*
-	 mouseTrackEvent.addEventListener('mouseleave', e =>
-	 {
-		  iAmMenuTimeout = setTimeout(function() {
-			jQuery(".iambutton").removeClass('on');
-		 }, 1000);
-	 });
-	 */
+});
+
+//makes the main anchor on the Iam Buttons not work if the viewport is above 685px.
+jQuery(document).ready(function() {
+	jQuery(".iambutton a:first-child").on("click", function(e) {
+		if (jQuery(window).width() > 685) {
+			e.preventDefault();
+		}
+	});
 });
 
 //Clicking the X on the alert will close the alert section. it will also set a cookie with the name "alert"
