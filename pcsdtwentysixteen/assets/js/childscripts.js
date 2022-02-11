@@ -6,12 +6,12 @@ I am Click to toggle
 var iAmMenuTimeout = null;
 const mouseTrackEvent = document.getElementById('iAmMenu');
 jQuery(".iambutton").click( function() {
-  // var e=window.event||e;
-	  if (jQuery(window).width() < 685) {
-			 e.preventDefault();
+	var e=window.event||e;
+	if (jQuery(window).width() > 685) {
+		e.preventDefault();
 	}
 	jQuery('.on').not(this).removeClass('on');
-	  jQuery(this).toggleClass("on");
+	jQuery(this).toggleClass("on");
 	//jQuery('html').animate({scrollTop: jQuery(this)},'fast');
 	//add removable with delay after hover leaves the iAM buttons
 	/*
