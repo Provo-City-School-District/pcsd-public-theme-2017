@@ -3,8 +3,8 @@
 I am Click to toggle
 =============================================================================================================
 */
-var iAmMenuTimeout = null;
-const mouseTrackEvent = document.getElementById('iAmMenu');
+//var iAmMenuTimeout = null;
+//const mouseTrackEvent = document.getElementById('iAmMenu');
 jQuery(".iambutton").click( function() {
 	var e=window.event||e;
 	if (jQuery(window).width() > 685) {
