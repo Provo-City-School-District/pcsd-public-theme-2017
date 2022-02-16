@@ -12,7 +12,7 @@
 			<li><img src="<?php echo get_template_directory_uri() .'/assets/icons/' . $iconColor; ?>/progress.svg" alt="" /><a class="ext" href="https://grades.provo.edu/public/">PowerSchool (Grades &amp; Attendance)</a></li>
 			<li><img src="<?php echo get_template_directory_uri() .'/assets/icons/' . $iconColor; ?>/shield.svg" alt="" /><a href="https://provo.edu/covid-19-updates//">COVID Updates & Resources</a></li>
 			<li><img src="<?php echo get_template_directory_uri() .'/assets/icons/' . $iconColor; ?>/register.svg" alt="" /><a class="ext" href="https://provo.edu/student-services/register-for-school/">Register For School</a></li>
-		  	<li><img src="<?php echo get_template_directory_uri() .'/assets/icons/' . $iconColor; ?>/fee.svg" alt="" /><a class="ext" href="https://secure2.myschoolfees.com/start_v2.aspx">Pay School Fees</a></li>
+		  	<li><img src="<?php echo get_template_directory_uri() .'/assets/icons/' . $iconColor; ?>/fee.svg" alt="" /><a class="ext" href="https://provo.aliohost.net:7443/AlioFeePay_PSD/Account/Login">Pay School Fees</a></li>
 		  	<li><img src="<?php echo get_template_directory_uri() .'/assets/icons/' . $iconColor; ?>/privacy.svg" alt="" /><a href="https://provo.edu/our-district/student-data-privacy/">Student Data Privacy</a></li>
 		  	<li><img src="<?php echo get_template_directory_uri() .'/assets/icons/' . $iconColor; ?>/boundary-map.svg" alt="" /><a href="https://provo.edu/school-boundary-locator/">School Boundary Locator</a></li>
 		  	<li><img src="<?php echo get_template_directory_uri() .'/assets/icons/' . $iconColor; ?>/nutrition.svg" alt="" /><a href="https://provo.edu/child-nutrition/">School Meals</a>
