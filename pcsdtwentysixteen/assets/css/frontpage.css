@@ -98,12 +98,7 @@ I am buttons
 	padding-bottom: 25px;
 	text-transform: uppercase;
 }
-#iAmMenu ul li span.threeColumn {
-	display: inline-block;
-	vertical-align: top;
-	width: 33%;
-	margin: 0 -4px 0 0;
-}
+
 #iAmMenu ul li div.iamBox {
 	display: none;
 	color: #02365b;
@@ -112,10 +107,7 @@ I am buttons
 	height: 350px;
 	overflow-y: scroll;
 }
-#iAmMenu ul li div.iamBox .threeColumn {
-	padding: 0;
-	width: 32%;
-}
+
 #iAmMenu ul li div.iamBox ul {
 	margin: 0;
 	padding: 0;
@@ -153,9 +145,7 @@ I am buttons
 	margin-bottom: 20px;
 	margin-top: -30px;
 }
-#iAmMenu .iamBox > .threeColumn{
-	vertical-align: top;
-}
+
 #iAmMenu ul li div ul li .iamSubMenu li {
 	line-height: 18px;
 }
@@ -186,8 +176,29 @@ I am buttons
 	z-index: 1000;
 }
 #iAmMenu .on .iamBox {
-	display:block;
+	display:grid;
+	grid-template-columns: repeat(3, 33.33%);
+
 }
+
+/*
+removed while looking at an issue with the 3 columns in the "I am" buttons
+
+#iAmMenu ul li div.iamBox .threeColumn {
+	padding: 0;
+	width: 32%;
+}
+#iAmMenu .iamBox > .threeColumn{
+	vertical-align: top;
+}
+#iAmMenu ul li span.threeColumn {
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+	margin: 0 -4px 0 0;
+}
+
+*/
 /*
 ----------------------------------------------------------------
 Responsive styles

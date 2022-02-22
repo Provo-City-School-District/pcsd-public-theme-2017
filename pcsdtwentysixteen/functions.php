@@ -25,7 +25,7 @@ function pcsd_scripts_styles() {
 	wp_enqueue_script( 'my_custom_scripts');
 	//load front page specific style sheet
 	if ( is_front_page() ) {
-		wp_enqueue_style( 'front_page', get_template_directory_uri() . '/assets/css/frontpage.css', array(),'1.0.01', false);
+		wp_enqueue_style( 'front_page', get_template_directory_uri() . '/assets/css/frontpage.css', array(),'1.0.02', false);
 	}
 	//does not load the link Detection script on menu pages
 	if ( !is_page(array(4150,4148,4142)) ) {
