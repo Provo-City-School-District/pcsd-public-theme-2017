@@ -668,6 +668,7 @@ Department main styles
 .content .slider {
 	width:50%;
 	float:right;
+	max-height: 400px;
 }
 .content .square2Image {
 	width:50%;
@@ -681,7 +682,8 @@ Department main styles
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:50% 50%;
-	height:400px;
+	min-height:400px;
+	position: relative;
 }
 .content .slider .slide span {
 	display:block;
@@ -987,9 +989,16 @@ Sidebars
 	margin-bottom:50px;
 	width:100%;
 }
-.imagelist li a {
+.imagelist {
+	list-style: none;
+}
+.sidebar .imagelist li a {
 	display:grid;
 	grid-template-columns: 20% 95%;
+}
+.content .imagelist li a {
+	display:grid;
+	grid-template-columns: 10% 90%;
 }
 .imagelist li a img {
 	vertical-align: middle;

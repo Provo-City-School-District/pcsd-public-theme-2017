@@ -14,7 +14,7 @@ function pcsd_scripts_styles() {
 
 	/*   REGISTER ALL CSS FOR SITE */
 	/*   CALL ALL CSS AND SCRIPTS FOR SITE */
-	wp_enqueue_style( 'parent_styles', get_template_directory_uri() . '/assets/css/parent-styles.css','1.0.01', false);
+	wp_enqueue_style( 'parent_styles', get_template_directory_uri() . '/assets/css/parent-styles.css','1.0.02', false);
 
 	wp_enqueue_style( 'child_style', get_stylesheet_uri(), array('parent_styles'), '1.0.01', false);
 
@@ -28,14 +28,11 @@ function pcsd_scripts_styles() {
 		wp_enqueue_style( 'front_page', get_template_directory_uri() . '/assets/css/frontpage.css', array(),'1.0.02', false);
 	}
 	//does not load the link Detection script on menu pages
-	if ( !is_page(array(4150,4148,4142)) ) {
+	if ( !is_page(array(4150,4148,4142,22494)) ) {
 		wp_enqueue_script( 'linkDetection');
 	}
 	if ( is_404() ) {
 		wp_enqueue_script( '404easterEgg');
-	}
-	if ( is_front_page() ) {
-		wp_enqueue_style( 'frontPageStyle', get_template_directory_uri() . '/assets/css/frontpage.css', '', '1.0.01', false);
 	}
 }
 add_action('wp_enqueue_scripts', 'pcsd_scripts_styles', 9999);
