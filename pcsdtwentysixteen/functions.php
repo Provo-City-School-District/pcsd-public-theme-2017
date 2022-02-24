@@ -14,7 +14,7 @@ function pcsd_scripts_styles() {
 
 	/*   REGISTER ALL CSS FOR SITE */
 	/*   CALL ALL CSS AND SCRIPTS FOR SITE */
-	wp_enqueue_style( 'parent_styles', get_template_directory_uri() . '/assets/css/parent-styles.css','1.0.02', false);
+	wp_enqueue_style( 'parent_styles', get_template_directory_uri() . '/assets/css/parent-styles.css','1.0.06', false);
 
 	wp_enqueue_style( 'child_style', get_stylesheet_uri(), array('parent_styles'), '1.0.01', false);
 
