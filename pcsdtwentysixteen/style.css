@@ -343,11 +343,12 @@ https://provo.edu/school-fees/
 	text-align: right;
 }
 .activePost .feeBreakdown .fee {
-	width: 12%;
+	max-width: 12%;
 	background-color: #fff;
 	border: 1px solid #ccc;
 
 }
+.noprior .feeBreakdown .fee {max-width: 15%}
 .activePost .feeBreakdown .fee span {
 	text-align: left;
 	display: block;

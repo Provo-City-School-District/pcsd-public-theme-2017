@@ -8,7 +8,7 @@
 
    		<section class="content page">
    		<?php custom_breadcrumbs(); ?>
-   			<article id="activePost" class="activePost feePost">
+   			<article id="activePost" class="activePost feePost noprior">
 
 				<h1><?php the_title(); ?></h1>
 				<?php
@@ -66,9 +66,11 @@
 										<article class="fee">
 											<p>Notes</p>
 										</article>
+										<!--
 										<article class="fee">
 											<p>Prior Year Approved Fee</p>
 										</article>
+									-->
 								<?php
 									 foreach($breakdown['breakdown_of_fees'] as $fee) {
 								?>
@@ -87,9 +89,11 @@
 										<article class="fee textright">
 											<span><?php echo $fee['notes']; ?></span>
 										</article>
+										<!--
 										<article class="fee textright">
-											<span><?php echo $fee['prior_year_approved_fee']; ?></span>
+											<span><?php //echo $fee['prior_year_approved_fee']; ?></span>
 										</article>
+									-->
 								<?php
 									}//end foreach($breakdown['breakdown_of_fees']
 								?>
@@ -127,9 +131,11 @@
 										<article class="fee">
 											<p>Notes</p>
 										</article>
+										<!--
 										<article class="fee">
 											<p>Prior Year Approved Fee</p>
 										</article>
+									-->
 								<?php
 									 foreach($breakdown['breakdown_of_fees'] as $fee) {
 								?>
@@ -148,9 +154,11 @@
 										<article class="fee textright">
 											<span><?php echo $fee['notes']; ?></span>
 										</article>
+										<!--
 										<article class="fee textright">
 											<span><?php echo $fee['prior_year_approved_fee']; ?></span>
 										</article>
+									-->
 								<?php
 									}//end foreach($breakdown['breakdown_of_fees']
 								?>
@@ -226,9 +234,11 @@ I changed the code so that the search would happen before the if statement and t
 										<article class="fee">
 											<p>Notes</p>
 										</article>
+										<!--
 										<article class="fee">
 											<p>Prior Year Approved Fee</p>
 										</article>
+									-->
 								<?php
 									 foreach($breakdown['breakdown_of_fees'] as $fee) {
 								?>
@@ -291,6 +301,7 @@ I changed the code so that the search would happen before the if statement and t
 									 			}
 											?>
 										</article>
+										<!--
 										<article class="fee textright">
 											<?php
 												if($fee['bold_line'] !== false) {
@@ -304,6 +315,7 @@ I changed the code so that the search would happen before the if statement and t
 												 }
 											?>
 										</article>
+									-->
 								<?php
 									}//end foreach($breakdown['breakdown_of_fees']
 								?>
