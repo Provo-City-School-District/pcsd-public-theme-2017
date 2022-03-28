@@ -23,7 +23,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="https://provo.edu/category/maintenance-facilities//">
+				<a href="https://provo.edu/category/maintenance-facilities/">
 					<img src="https://globalassets.provo.edu/image/icons/maintenance-lt.svg" alt="" />
 					<span>Facilities Update</span>
 				</a>
