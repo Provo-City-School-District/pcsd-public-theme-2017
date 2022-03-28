@@ -47,7 +47,6 @@
 			<li><a href="https://provo.edu/teaching-learning/math/">Math</a></li>
 			<li><a href="https://provo.edu/teaching-learning/physical-education/">Physical Education</a></li>
 			<li><a href="https://provo.edu/teaching-learning/stem/">STEM</a></li>
-			<li><a href="https://provo.edu/teaching-learning/social-studies/">Social Studies</a></li>
 			<li><a href="http://www.uen.org/core/">Utah Core Standards</a></li>
 		</ul>
 	</li>
