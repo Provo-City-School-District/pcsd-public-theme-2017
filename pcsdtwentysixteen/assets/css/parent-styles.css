@@ -1,5 +1,7 @@
 :root {
 	--main-blue-color: #1c2f4a;
+	--even-color:#f1f5f9;
+	--odd-color: #dbe1e7;
 }
 .sanity {
 	position: absolute;
@@ -518,10 +520,10 @@ Post Grid
 	padding:20px 3%;
 }
 .postgrid .post:nth-child(even),.post div.postgrid:nth-child(even) {
-	background-color:#dbe1e7;
+	background-color:var(--even-color);
 }
 .postgrid .post:nth-child(odd),.post .postgrid:nth-child(odd) {
-	background-color:#f1f5f9;
+	background-color:var(--odd-color);
 }
 .postgrid article.post .featured-image {
 	width:100%;
