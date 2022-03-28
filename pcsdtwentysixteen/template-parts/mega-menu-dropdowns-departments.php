@@ -24,7 +24,7 @@
 	<li><img src="https://globalassets.provo.edu/image/icons/dark/maintenance.svg" alt="" /><a href="https://provo.edu/maintenance-facilities/">Maintenance &amp; Facilities</a></li>
 	<li><img src="https://globalassets.provo.edu/image/icons/dark/pr.svg" alt="" /><a href="//provo.edu/public-relations/">Public Relations</a></li>
 	<li><img src="https://globalassets.provo.edu/image/icons/dark/nurse.svg" alt="" /><a href="https://provo.edu/nurses/">School Nurses</a></li>
-	<li><img src="https://globalassets.provo.edu/image/icons/dark/special.svg" alt="" /><a href="https://provo.edu/special-education/">Special Education</a></li>
+	<li><img src="https://globalassets.provo.edu/image/icons/dark/special.svg" alt="" /><a href="https://provo.edu/special-education/">Special Education Services</a></li>
 	<li><img src="https://globalassets.provo.edu/image/icons/dark/student.svg" alt="" /><a href="//provo.edu/student-services/">Student Services</a></li>
 	<li><img src="https://globalassets.provo.edu/image/icons/dark/superintendent.svg" alt="" /><a href="https://provo.edu/superintendent/">Superintendent</a></li>
 	<li><img src="https://globalassets.provo.edu/image/icons/dark/opportunities.svg" alt="" /><a href="https://provo.edu/student-services/government-programs/title-i/">Title I</a></li>
