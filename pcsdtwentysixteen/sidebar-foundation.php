@@ -29,22 +29,26 @@
 				<li>Julia Doxey</li>
 				<li>Jenae Thomas</li>
 				<li>Carolyn Wright</li>
-				<li>Colleen Christensen</li> 
-				<li>Greg Christofferson</li> 
+				<li>Colleen Christensen</li>
+				<li>Greg Christofferson</li>
 				<li>Susie Bramble</li>
 				<li>Andrea Clarke</li>
-				<li>Kahi Winget</li>
+				<li>Robyn Pulham</li>
+				<li>Nick Whiting</li>
+				<li>Marissa Bernards</li>
+				<li>Ali Conger</li>
+				<li>Jennifer Partridge</li>
+				<li>Nate Bryson</li>
 			</ul>
 
 		<h2>District Advisors</h2>
 			<ul>
 				 <li>Douglas Finch</li>
-				 <li>Jennifer Partridge</li>
 				 <li>Jessica Miller</li>
 				 <li>Caleb Price</li>
-				 <li>Laren Schoenwald</li>
+				 <li>Lauren Schoenwald</li>
 				 <li>Charity Williams</li>
-				 <li>Nate Bryson</li>
-				<li>Elizabeht  Hernandez</li>
+				 <li>Ricardo Ledesma</li>
+				 <li>Shauna Sprunger</li>
 			</ul>
 </aside>
