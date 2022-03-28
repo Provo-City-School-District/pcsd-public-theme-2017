@@ -42,6 +42,7 @@
 			<li><a href="https://provo.edu/counseling-career-pathways/">Counseling</a></li>
 			<li><a href="https://provo.edu/teaching-learning/data-and-research/">Data and Research</a></li>
 			<li><a href="https://provo.edu/teaching-learning/5th-grade-maturation/">Fifth Grade Maturation</a></li>
+			<li><a href="https://provo.edu/teaching-learning/k-12-health-pe/">K-12 Health/PE</a></li>
 			<li><a href="https://provo.edu/teaching-learning/language-arts/">Language Arts</a></li>
 			<li><a href="https://provo.edu/provo-way-innovative-learning-initiative/">Learning Initiative</a></li>
 			<li><a href="https://provo.edu/teaching-learning/math/">Math</a></li>
