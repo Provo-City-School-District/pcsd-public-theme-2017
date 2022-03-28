@@ -1,0 +1,9 @@
+#pageContent {
+	position: fixed;
+	top: 120px;
+	bottom:45px;
+	overflow-y: scroll;
+}
+#pageContent.rsidebar {
+	width: calc(100% - 320px);
+}

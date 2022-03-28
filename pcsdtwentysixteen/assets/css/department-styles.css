@@ -1,0 +1,48 @@
+.pageContent {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.currentPageContent, .staticVid, .staticImage {
+	background-color: var(--theme-white);
+}
+.currentPageContent {
+	overflow-y:scroll;
+	padding: 5px 0 20px 20px;
+	max-height: 400px;
+}
+.staticImage {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	position: relative;
+}
+.staticImage .slidertext {
+	background-color: rgba(204,213,223,0.9);
+	position: absolute;
+	bottom:0;
+	left: 0;
+	right:0;
+	padding: 0 0 0 20px;
+}
+
+
+
+
+
+
+
+/*
+Department Tiles
+*/
+.departmentTiles {
+	position: relative;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin-top: -7px;
+}
+.departmentTiles .tile{
+	padding:25px;
+}
+.departmentTiles .tile:nth-child(even){background-color: var(--even-color);}
+.departmentTiles .tile:nth-child(odd){background-color: var(--odd-color);}

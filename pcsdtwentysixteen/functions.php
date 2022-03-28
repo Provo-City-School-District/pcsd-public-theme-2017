@@ -34,6 +34,10 @@ function pcsd_scripts_styles() {
 	if ( is_404() ) {
 		wp_enqueue_script( '404easterEgg');
 	}
+	if( is_page_template( 'template-department-staticmedia.php' )) {
+		wp_enqueue_style( 'tile_styles', get_template_directory_uri() . '/assets/css/department-styles.css','1.0.0', false);
+		wp_enqueue_style( 'parent_styles_2022', get_template_directory_uri() . '/assets/css/2022-parent-styles.css','1.0.0', false);
+	}
 }
 add_action('wp_enqueue_scripts', 'pcsd_scripts_styles', 9999);
 
