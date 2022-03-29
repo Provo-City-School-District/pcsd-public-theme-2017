@@ -34,7 +34,7 @@
 					<span>Why PCSD Video Features</span>
 				</a>
 			</li>
-			
+
 			<li>
 				<a href="//provo.edu/category/news/classroom-learning/">
 					<img src="//globalassets.provo.edu/image/icons/classroom.svg" alt="" />
@@ -83,8 +83,8 @@
 					<span>Board Reports</span>
 				</a>
 			</li>
-			
-			
+
+
 		</ul>
 	  <!-- <?php dynamic_sidebar( 'globalsidebar' ); ?> -->
 </aside>

@@ -7,7 +7,7 @@
 ?>
    <main id="pageContent" class="rsidebar">
    <?php custom_breadcrumbs(); ?>
-		<section class="pageContent">
+		<section class="mainTileContent">
 
 				<?php
 					if(have_posts()) :

@@ -1,9 +1,25 @@
-#pageContent {
-	position: fixed;
-	top: 120px;
-	bottom:45px;
-	overflow-y: scroll;
+/* old theme resets */
+#pageContent,#sidebar,#mainFooter{
+	position: unset;
+	width: auto;
 }
-#pageContent.rsidebar {
-	width: calc(100% - 320px);
+/* new styles */
+#pageContent {
+	margin-top: 110px;
+}
+/*responsive styles*/
+
+@media only screen and (min-width: 700px) {
+	#pageContent,#sidebar,#mainFooter{
+		position: fixed;
+	}
+	#pageContent {
+		top:20px;
+		bottom: 45px;
+		overflow-y: scroll;
+	}
+	#sidebar{width: 320px;}
+	#pageContent.rsidebar {
+		width: calc(100% - 360px);
+	}
 }
