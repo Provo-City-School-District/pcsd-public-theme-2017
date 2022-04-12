@@ -445,7 +445,7 @@ Content Area
 	display:block;
 	position:absolute;
 	left:0;
-	top:120px;
+	top:130px;
 	bottom:45px;
 	width:calc(100% - 320px);
 	overflow-y:auto;
