@@ -8,6 +8,7 @@
    			<article <?php if(is_page(array(10048,57392,57517))){ echo('lang="es"');}?> id="activePost" class="activePost">
 
 				<?php
+					do_shortcode( '[modified-date]' );
 					if(have_posts()) :
 						while (have_posts()) : the_post();?>
 

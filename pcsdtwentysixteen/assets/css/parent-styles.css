@@ -1223,8 +1223,8 @@ ul.address li {
 	list-style:none;
 }
 .lastmodified {
-	float: right;
-	font-size: 14px;
+	position: absolute;
+	right: 20px;
 }
 /*================================================================================================================
 link marking
