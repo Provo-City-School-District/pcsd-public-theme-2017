@@ -109,7 +109,7 @@ body {
 	left:0;
 	right:0;
 	z-index:10000;
-	min-height: 120px;
+	min-height: 90px;
 }
 #mainContent {
 	margin-top: 110px;
@@ -177,6 +177,7 @@ Main Header
 	background: #fd6e03;
 	height:30px;
 	padding: 5px 0 0 0;
+	display: none;/* hide covid branding */
 }
 #mainHeader #covidBranding a {
 	color: #fff;
@@ -339,7 +340,7 @@ Navigation
 	right: 0;
 	left: 0;
 	opacity: 0;
-	top:117px;
+	top:100px;/* 100px without covid branding 117px with covid branding */
 	visibility:hidden;
 	transition-delay:.5s;
 	padding:30px 20px 0;
@@ -445,7 +446,7 @@ Content Area
 	display:block;
 	position:absolute;
 	left:0;
-	top:130px;
+	top:100px; /* 100px without covid branding 130px with covid branding */
 	bottom:45px;
 	width:calc(100% - 320px);
 	overflow-y:auto;
@@ -948,7 +949,7 @@ Sidebars
 	width:280px;
 	position:absolute;
 	right:0;
-	top:120px;
+	top:90px;/* 00px without covid branding 120px with covid branding */
 	bottom:45px;
 	padding:0 20px;
 	background-color:#21395a;

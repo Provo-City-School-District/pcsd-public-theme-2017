@@ -3,7 +3,7 @@
 	--main-ltblue-color: #dde0e7;
 }
 #mainContent {
-	margin-top: 79px;
+	margin-top: 48px;/* 48px without covid branding 79px with covid branding */
 	width:100%;
 	background-color: #fff;
 }
