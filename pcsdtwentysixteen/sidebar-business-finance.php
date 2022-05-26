@@ -28,6 +28,12 @@
 				<span>ESSER Funding Plan</span>
 			</a>
 		</li>
+		<li>
+			<a class="int" href="https://provo.edu/school-fees/">
+				<img src="https://provo.edu/wp-content/themes/pcsdtwentysixteen/assets/icons/light/fee.svg" alt="" />
+				View School Fees
+			</a>
+		</li>
 	</ul>
 	<h2>Business Contacts</h2>
 

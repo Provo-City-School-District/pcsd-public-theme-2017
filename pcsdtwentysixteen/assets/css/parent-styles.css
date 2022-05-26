@@ -593,9 +593,13 @@ Post Grid
 }
 /*
 --------------------------------------------------------------------
-Single Post
+Single Post .singlePost .single-post
 --------------------------------------------------------------------
 */
+.singlePost .postmeta, .singlePost .featured-image-full, .singlePost article header, .singlePost article article, .singlePost article footer {
+	max-width:1000px;
+	margin: 0 auto;
+}
 .singlePost .activePost,.page .activePost {
 	background-color:#fff;
 	min-height:400px;
@@ -618,10 +622,7 @@ Single Post
 	padding-bottom:20px;
 	padding-top:20px;
 }
-.singlePost .postmeta {
-	max-width:1000px;
-	margin: 0 auto;
-}
+
 .singlePost .postmeta ul,.postgrid .postmeta ul {
 	margin:0;
 	max-width:100%;
@@ -639,6 +640,30 @@ Single Post
 	margin-right:5px;
 	margin-left:2px;
 }
+/*
+--------------------------------------------------------------------------------------------------------------
+Post Signature
+--------------------------------------------------------------------------------------------------------------
+*/
+.post_sig {
+	width: 400px;
+	background-color: #f1f5f9;
+	text-align: center;
+	margin-bottom: 20px;
+	display: grid;
+	grid-template-columns: 120px 1fr;
+}
+.post_sig ul,.post_sig ul li {
+	list-style: none;
+	margin:0;
+
+}
+.post_sig ul {
+	place-self: center;
+}
+
+
+
 /*
 --------------------------------------------------------------------------------------------------------
 Department main styles
@@ -1272,7 +1297,7 @@ ul li a[href*="xls"]:after {
 	left:-9999px;
 }
 /*For adding icon into for in line links*/
-.content p a:after{
+.content p a:after, #pageContent p a:after{
 	content:' ';
 	display: inline-block;
 	margin-left: 3px;
@@ -1368,10 +1393,6 @@ table td,table th {
 }
 span.wpcf7-list-item {
 	display: block;
-}
-.articlecontent {
-	max-width: 1000px;
-	margin: 0 auto;
 }
 .swp_social_panel:not(.nc_floater):not(.swp_social_panelSide) {
 	width: 1000px!important;
@@ -1863,3 +1884,5 @@ Responsive styles
 		position:initial;
 	}
 }
+
+

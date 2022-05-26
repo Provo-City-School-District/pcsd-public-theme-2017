@@ -435,30 +435,3 @@ Responsive Portrait styles
 }
 
 
-/*
---------------------------------------------------------------------------------------------------------------
-Post Signature
---------------------------------------------------------------------------------------------------------------
-*/
-.post_sig {
-	text-align: center;
-	float: left;
-	background-color: #f1f5f9;
-	min-width: 400px;
-	margin-bottom: 20px;
-}
-.post_sig ul {
-	position: relative;
-	margin-left: 0;
-	padding-top: 20px;
-}
-.post_sig ul li {
-	list-style: none;
-}
-.post_sig .staff-member-photo {
-	float: left;
-	max-width: 100px;
-	padding: 1em 0 1em 1em;
-}
-
-

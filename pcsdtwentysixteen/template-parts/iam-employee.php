@@ -42,7 +42,6 @@
 			  <li><img src="<?php echo get_template_directory_uri() .'/assets/icons/' . $iconColor; ?>/employee-access.svg" alt="" /><a href="https://employee.provo.edu/">Employee Access</a>
 				<ul class="iamSubMenu subMenu">
 					<li><a href="https://www.aliosolutions.net/PROVO/login.aspx">ALIO Employee Service Portal Login</a></li>
-					<li><a href="https://employee.provo.edu/teaching-learning/professional-development/16-hours-of-blended-learning-2021-22/">16 Hours of Blended Learning</a></li>
 					<li><a href="https://employee.provo.edu/technology/approved-applications/">Approved Apps</a></li>
 					<li><a href="https://www.employeenavigator.com/benefits/Account/Login">Benefits Enrollment Portal</a></li>
 					<li><a href="https://employee.provo.edu/teaching-learning/curriculum-notebooks/">Curriculum Notebooks</a></li>

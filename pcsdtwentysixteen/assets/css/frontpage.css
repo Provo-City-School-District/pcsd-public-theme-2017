@@ -274,8 +274,9 @@ Home Page News
 }
 #homeNews .stories article {
 	margin-left: 3%;
+	width: 33%;
 	background-color: var(--main-ltblue-color);
-	max-width: 32%;
+
 }
 #homeNews .stories .articleContent {
 	padding-left: 5%;

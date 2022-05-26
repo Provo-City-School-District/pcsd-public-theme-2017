@@ -11,6 +11,7 @@
   		<!--	<li><img src="https://globalassets.provo.edu/image/icons/light/return-plan-lt.svg" alt="" /><a href="https://provo.edu/returnplan/">Return to School Plan 2020</a></li> -->
 	  		<li><img src="<?php echo get_template_directory_uri() .'/assets/icons/' . $iconColor; ?>/progress.svg" alt="" /><a class="ext" href="https://grades.provo.edu/public/">Update Powerschool or View Grades &amp; Attendance</a></li>
 	  		<li><img src="<?php echo get_template_directory_uri() .'/assets/icons/' . $iconColor; ?>/calendar.svg" alt="" /><a href="https://provo.edu/human-resources/calendars/">View School Year Calendars</a></li>
+			<li><img src="<?php echo get_template_directory_uri() .'/assets/icons/' . $iconColor; ?>/fee.svg" alt="" /><a class="int" href="https://provo.edu/school-fees/">View School Fees</a></li>
   		</ul>
 	</div>
 	<div>

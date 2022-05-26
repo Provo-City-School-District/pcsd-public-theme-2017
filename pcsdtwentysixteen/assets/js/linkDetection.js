@@ -1,4 +1,4 @@
-jQuery('.content ul li a').each(function(){
+jQuery('.content ul li a, #pageContent ul li a').each(function(){
 		if (jQuery(this).attr('href').match('.pdf')) {
 			jQuery(this).parent().addClass('pdf');
 		} else if(jQuery(this).attr('href').match('.xls')) {

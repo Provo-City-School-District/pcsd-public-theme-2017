@@ -1,5 +1,5 @@
 <ul class="sub-nav-group">
-	<li><img src="https://globalassets.provo.edu/image/icons/dark/business.svg" alt="" /><a href="//provo.edu/business-and-finance/">Business &amp; Finance</a></li>
+	<li><img src="https://globalassets.provo.edu/image/icons/dark/business.svg" alt="" /><a href="https://provo.edu/business-finance/">Business &amp; Finance</a></li>
 	<li><img src="https://globalassets.provo.edu/image/icons/dark/nutrition.svg" alt="" /><a href="//provo.edu/child-nutrition/">Child Nutrition</a>
 		<ul class="subMenu">
 			<li><a href="https://www.schoolnutritionandfitness.com/index.php?page=menus&sid=2302081511134871">Lunch Menus</a></li>

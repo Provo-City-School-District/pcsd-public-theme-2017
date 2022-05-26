@@ -16,6 +16,12 @@
 				<span>Board Policies</span>
 			</a>
 		</li>
+		<li>
+			<a href="https://provo.edu/diversity-equity-inclusion-statement/">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/icons/light/district-communication.svg" alt="" />
+				<span>Diversity, Equity & Inclusion Statement</span>
+			</a>
+		</li>
 	</ul>
 	<h2>Board Member Contacts</h2>
 
