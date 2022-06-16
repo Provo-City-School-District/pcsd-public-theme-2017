@@ -1348,6 +1348,8 @@ ul:not(.sub-nav-group,.subMenu) li.ext {
 	list-style-position: inside!important;
 	margin-left: -4px;
 }
+/* correct child ul and li that do not get a class to not inherit their parent list style.*/
+ul li.int ul,ul li.pdf ul,ul li.xls ul,ul li.ext ul {list-style-image:none;}
 ul.imageList li {
 	list-style: none!important;
 }
