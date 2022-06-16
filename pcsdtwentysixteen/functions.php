@@ -4,20 +4,19 @@ Theme Setup
 ============================================================================================*/
 function pcsd_scripts_styles() {
 	/*   REGISTER ALL JS FOR SITE */
-	wp_register_script( 'slick_slider', 'https://globalassets.provo.edu/slick/slick.min.js', array('jquery'), '1.0.02', true);
-	wp_register_script( 'mega_menu', 'https://globalassets.provo.edu/js/jquery-accessibleMegaMenu.js', array('jquery'), '1.0.02', true);
-	wp_register_script( 'cookie_script', 'https://globalassets.provo.edu/js/cookie.js', array('jquery'), '1.0.02', true);
-	wp_register_script( 'global_scripts', get_template_directory_uri() .'/assets/js/parentscripts.js', array('jquery', 'mega_menu','slick_slider'), '1.0.02', true);
-	wp_register_script( 'my_custom_scripts',get_template_directory_uri() .'/assets/js/childscripts.js', array('cookie_script','mega_menu','global_scripts'), '1.0.02', true);
-	wp_register_script( 'linkDetection',get_template_directory_uri() .'/assets/js/linkDetection.js', '','1.0.02', true);
-	wp_register_script( '404easterEgg', 'https://globalassets.provo.edu/js/404.js', '', '1.0.02', true );
+	wp_register_script( 'slick_slider', 'https://globalassets.provo.edu/slick/slick.min.js', array('jquery'), '1.0.1', true);
+	wp_register_script( 'mega_menu', 'https://globalassets.provo.edu/js/jquery-accessibleMegaMenu.js', array('jquery'), '1.0.1', true);
+	wp_register_script( 'cookie_script', 'https://globalassets.provo.edu/js/cookie.js', array('jquery'), '1.0.1', true);
+	wp_register_script( 'global_scripts', get_template_directory_uri() .'/assets/js/parentscripts.js', array('jquery', 'mega_menu','slick_slider'), '1.0.1', true);
+	wp_register_script( 'my_custom_scripts',get_template_directory_uri() .'/assets/js/childscripts.js', array('cookie_script','mega_menu','global_scripts'), '1.0.1', true);
+	wp_register_script( 'linkDetection',get_template_directory_uri() .'/assets/js/linkDetection.js', '','1.0.1', true);
+	wp_register_script( '404easterEgg', 'https://globalassets.provo.edu/js/404.js', '', '1.0.1', true );
 
 	/*   REGISTER ALL CSS FOR SITE */
 	/*   CALL ALL CSS AND SCRIPTS FOR SITE */
-	wp_enqueue_style( 'parent_styles', get_template_directory_uri() . '/assets/css/parent-styles.css','1.0.04', false);
 	wp_enqueue_style( 'parent_styles', get_template_directory_uri() . '/assets/css/parent-styles.css','1.0.3', false);
 
-	wp_enqueue_style( 'theme_stylesheet', get_stylesheet_uri(), array('parent_styles'), '1.0.04', false);
+	wp_enqueue_style( 'theme_stylesheet', get_stylesheet_uri(), array('parent_styles'), '1.0.1', false);
 
 	wp_enqueue_script( 'slick_slider');
 	wp_enqueue_script( 'mega_menu');
@@ -26,7 +25,7 @@ function pcsd_scripts_styles() {
 	wp_enqueue_script( 'my_custom_scripts');
 	//load front page specific style sheet
 	if ( is_front_page() ) {
-		wp_enqueue_style( 'front_page', get_template_directory_uri() . '/assets/css/frontpage.css', array(),'1.0.03', false);
+		wp_enqueue_style( 'front_page', get_template_directory_uri() . '/assets/css/frontpage.css', array(),'1.0.1', false);
 	}
 	//does not load the link Detection script on menu pages
 	if ( !is_page(array(4150,4148,4142,22494)) ) {
@@ -36,8 +35,8 @@ function pcsd_scripts_styles() {
 		wp_enqueue_script( '404easterEgg');
 	}
 	if( is_page_template( 'template-department-staticmedia.php' )) {
-		wp_enqueue_style( 'tile_styles', get_template_directory_uri() . '/assets/css/department-styles.css','1.0.02', false);
-		wp_enqueue_style( 'parent_styles_2022', get_template_directory_uri() . '/assets/css/2022-parent-styles.css','1.0.02', false);
+		wp_enqueue_style( 'tile_styles', get_template_directory_uri() . '/assets/css/department-styles.css','1.0.1', false);
+		wp_enqueue_style( 'parent_styles_2022', get_template_directory_uri() . '/assets/css/2022-parent-styles.css','1.0.1', false);
 	}
 }
 add_action('wp_enqueue_scripts', 'pcsd_scripts_styles', 9999);

@@ -112,7 +112,7 @@ body {
 	min-height: 90px;
 }
 #mainContent {
-	margin-top: 110px;
+	margin-top: 100px;
 	width:100%;
 	background-color: #fff;
 }
@@ -215,7 +215,7 @@ Cludo Search
 	height:35px;
 	position: absolute;
 	right: -9999px;
-	top:80px;
+	top:55px;
 	transition: 0s 2s;
 	padding: 0;
 	margin: 0;
@@ -250,9 +250,8 @@ Cludo Search
 #search_autocomplete {
 	background-color: #eee;
 	position: absolute;
-
 	right: 20px;
-	top: 115px;
+	top: 90px;
 	width: 400px;
 	z-index: 20;
 	box-shadow: 0 10px 7px -5px black;
@@ -1249,9 +1248,15 @@ ul.address li {
 	list-style:none;
 }
 .lastmodified {
-	position: absolute;
-	right: 20px;
+	text-align: right;
 }
+@media(min-width:1220px) {
+	.lastmodified {
+		position: absolute;
+		right: 20px;
+	}	
+}
+
 /*================================================================================================================
 link marking
 ================================================================================================================*/
@@ -1398,7 +1403,7 @@ span.wpcf7-list-item {
 	display: block;
 }
 .swp_social_panel:not(.nc_floater):not(.swp_social_panelSide) {
-	width: 1000px!important;
+	width: 1000px;
 	margin: 0 auto;
 }
 /*
@@ -1672,7 +1677,7 @@ Responsive styles
 	#mainContent {
 		display:block;
 		position:inherit;
-		margin-top:132px;
+		margin-top:100px;
 		z-index:1000;
 	}
 	#mainContent .content {
@@ -1681,8 +1686,8 @@ Responsive styles
 		min-height:895px;
 	}
 	#mainContent .sidebar {
-		margin-top:132px;
 		max-height:927px;
+		bottom: unset;
 	}
 	.nav-menu {
 		display:none;
@@ -1776,7 +1781,7 @@ Responsive styles
 	}
 	#mainContent {
 		width:100%;
-		margin-top:130px;
+		margin-top:100px;
 	}
 	#mainContent .content {
 		width:100%;
@@ -1868,7 +1873,7 @@ Responsive styles
 	.headerPhone {display: none;}
 }
 @media (max-height: 400px) {
-	#mainHeader {
+	/* #mainHeader {
 		position: initial;
 	}
 	#cludo-search-form .search-input {
@@ -1882,6 +1887,15 @@ Responsive styles
 	}
 	#mainContent {
 		margin-top:0!important;
+	}
+	#mainFooter{
+		position:initial;
+	} */
+	.content {
+		position: initial;
+	}
+	.sidebar{
+		bottom:unset;
 	}
 	#mainFooter{
 		position:initial;
