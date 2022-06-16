@@ -41,13 +41,13 @@
 			</a>
 		</li>
 		<li>
-			<a href="https://provo.edu/wp-content/uploads/2020/08/6160-FeeWaiverApplicationK6.pdf">
+			<a href="https://provo.edu/wp-content/uploads/2022/06/6160-F1-FeeWaiverApplicationK6.pdf">
 				<img src="//globalassets.provo.edu/image/icons/policy.svg" alt="" />
 				<span>6160 Form 1 Fee Waiver Application (Grade K-6)</span>
 			</a>
 		</li>
 		<li>
-			<a href="https://provo.edu/wp-content/uploads/2021/07/6160-FeeWaiverApplication7-12.pdf">
+			<a href="https://provo.edu/wp-content/uploads/2022/06/6160-F1-FeeWaiverApplication712.pdf">
 				<img src="//globalassets.provo.edu/image/icons/policy.svg" alt="" />
 				<span>6160 Form 1 Fee Waiver Application (Grade 7-12)</span>
 			</a>
@@ -59,13 +59,13 @@
 			</a>
 		</li>
 		<li>
-			<a href="https://provo.edu/wp-content/uploads/2020/08/6160-FeeWaiverApplicationK6Spanish.pdf">
+			<a href="https://provo.edu/wp-content/uploads/2022/06/6160-F1-FeeWaiverApplicationK6Spanish.pdf">
 				<img src="//globalassets.provo.edu/image/icons/policy.svg" alt="" />
 				<span>6160 Solicitud de Exención de Cuotas (Grados K-6)</span>
 			</a>
 		</li>
 		<li>
-			<a href="https://provo.edu/wp-content/uploads/2021/07/6160-FeeWaiverApplication7-12Spanish.pdf">
+			<a href="https://provo.edu/wp-content/uploads/2022/06/6160-F1-FeeWaiverApplication712Spanish.pdf">
 				<img src="//globalassets.provo.edu/image/icons/policy.svg" alt="" />
 				<span>6160 Solicitud de Exoneracion de Cuotas (Grados 7-12)</span>
 			</a>
