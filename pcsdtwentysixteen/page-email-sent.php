@@ -21,7 +21,7 @@
 		echo'<script>setTimeout(function(){window.location.href="https://provo.edu"},100);</script>';
 		die();
 	}
-	$email_blacklist = array('vetus_republic_iii_percent@protonmail.com','bademail@gmail.com', 'bayville@gmail.com', 'chrisfuhriman9@gmail.com');
+	$email_blacklist = array('vetus_republic_iii_percent@protonmail.com','bademail@gmail.com', 'bayville@gmail.com', 'chrisfuhriman9@gmail.com', 'kindnessbeginswithme@gmail.com');
 	if (array_search($from, $email_blacklist) !== false) {
 		?>
 		<p>Message delivery failed...error h!fbcak</p>
