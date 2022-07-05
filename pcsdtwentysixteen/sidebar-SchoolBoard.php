@@ -33,7 +33,7 @@
 			 	<li class="email">melanieh@provo.edu</li>
 			</ul>
 			<ul class="boardterms">
-			 	<li><strong>Assigned Schools:</strong> Rock Canyon, Centennial</li>
+			 	<li><strong>Assigned Schools:</strong> Edgemont, Rock Canyon, Timpview</li>
 			 	<li><strong>Term Began:</strong> December 2019</li>
 			 	<li><strong>Term Ends:</strong> January 2023</li>
 			</ul>
@@ -46,7 +46,7 @@
 				 <li class="email">rnielsen@provo.edu</li>
 			</ul>
 			<ul class="boardterms">
-				 <li><strong>Assigned Schools:</strong> Lakeview, Westridge</li>
+				 <li><strong>Assigned Schools:</strong> Westridge, Lakeview, Dixon, eSchool, Provo High</li>
 				 <li><strong>Term Began:</strong> January 2017</li>
 				 <li><strong>Term Ends:</strong> January 2024</li>
 			</ul>
@@ -59,7 +59,7 @@
 			 	<li class="email">nateb@provo.edu</li>
 			</ul>
 			<ul class="boardterms">
-				<li><strong>Assigned Schools:</strong> Canyon Crest, Edgemont, Timpview</li>
+				<li><strong>Assigned Schools:</strong> Canyon Crest, Timpview, Independence (including Adult Education, EastBay Post High)</li>
 				<li><strong>Term Began:</strong> January 2019</li>
 				<li><strong>Term Ends:</strong> January 2023</li>
 			</ul>
@@ -72,7 +72,7 @@
 				 	<li class="email">mckayj@provo.edu</li>
 				</ul>
 				<ul class="boardterms">
-					<li><strong>Assigned Schools:</strong> Wasatch</li>
+					<li><strong>Assigned Schools:</strong> Wasatch, Provo Peaks, Centennial</li>
 					<li><strong>Term Began:</strong> January 2019</li>
 					<li><strong>Term Ends:</strong> January 2023</li>
 				</ul>
@@ -86,7 +86,7 @@
 			 	<li class="email">jenniferpa@provo.edu</li>
 			</ul>
 			<ul class="boardterms">
-			 	<li><strong>Assigned Schools:</strong> Provost, Provo Peaks, Spring Creek</li>
+			 	<li><strong>Assigned Schools:</strong> Provost, Spring Creek, Centennial</li>
 			 	<li><strong>Term Began:</strong> January 2019</li>
 			 	<li><strong>Term Ends:</strong> January 2023</li>
 			</ul>
@@ -99,7 +99,7 @@
 			 	<li class="email">terim@provo.edu</li>
 			</ul>
 			<ul class="boardterms">
-			 	<li><strong>Assigned Schools:</strong> Amelia, Franklin, Sunset View</li>
+			 	<li><strong>Assigned Schools:</strong> Franklin, Amelia Earhart, Sunset View, Provo High, Independence</li>
 			 	<li><strong>Term Began:</strong> January 2020</li>
 			 	<li><strong>Term Ends:</strong> January 2024</li>
 			</ul>
@@ -113,7 +113,7 @@
 					 <li class="email">ginah@provo.edu</li>
 				</ul>
 				<ul class="boardterms">
-					<li><strong>Assigned Schools:</strong> Timpanogos, Dixon, IHS, Provo High</li>
+					<li><strong>Assigned Schools:</strong> Timpanogos, Dixon, Slate Canyon, Oak Springs, eSchool</li>
 					<li><strong>Term Began:</strong> January 2020</li>
 					<li><strong>Term Ends:</strong> January 2024</li>
 				</ul>
