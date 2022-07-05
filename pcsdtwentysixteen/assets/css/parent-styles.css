@@ -454,7 +454,8 @@ Content Area
 }
 .wp-block-button {
 	float: right;
-	margin-top: -58px;
+	margin-left: 20px;
+	margin-bottom: 10px;
 }
 .wp-block-button .wp-block-button__link {
 	float: right!important;
