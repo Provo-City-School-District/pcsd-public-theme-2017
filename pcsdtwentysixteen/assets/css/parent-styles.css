@@ -869,8 +869,12 @@ Office Directory styles
 	list-style:none;
 	margin:0;
 }
-.directory .personalvCard .title {
+.directory .personalvCard ul li
+{
+	text-align: center;
 	font-size:.7em;
+}
+.directory .personalvCard .title {
 	font-style:italic;
 	line-height:15px;
 }
@@ -878,14 +882,7 @@ Office Directory styles
 	font-size:1em;
 	font-weight:700;
 }
-.directory .personalvCard ul li.phone,
-.directory .personalvCard ul li.email,
-.directory .personalvCard ul li.address,
-.directory .personalvCard ul li.schools,
-.directory .personalvCard ul li.speaksSpanish
-{
-	font-size:.7em;
-}
+
 .activePost #directorySearch,
 .activePost #filter,.activePost #directorySearchIcon
 {
